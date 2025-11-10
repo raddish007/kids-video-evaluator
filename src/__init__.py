@@ -6,6 +6,7 @@ from .evaluator import VideoEvaluator
 from .report_generator import ReportGenerator
 from .rubric import get_evaluation_prompt
 from .youtube_downloader import YouTubeDownloader
+from .youtube_metadata import YouTubeMetadataFetcher
 
 __all__ = [
     'FrameExtractor',
@@ -14,4 +15,5 @@ __all__ = [
     'ReportGenerator',
     'get_evaluation_prompt',
     'YouTubeDownloader',
+    'YouTubeMetadataFetcher',
 ]

@@ -33,6 +33,10 @@ downloaded_videos/
 *.webm
 *.m4v
 
+# Generated data (frames, transcripts, metadata)
+data/
+outputs/
+
 # Whisper models cache
 ~/.cache/whisper/
 
