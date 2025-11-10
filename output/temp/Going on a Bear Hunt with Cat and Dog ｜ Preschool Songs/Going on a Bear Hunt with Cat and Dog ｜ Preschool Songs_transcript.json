@@ -1,0 +1,3459 @@
+{
+  "text": " We're going on a bare hunt We're going on a bare hunt I've got my binoculars. I've got my binoculars. I'm not scared. I'm not scared Look at that tall wavy grass. It's so tall. We can go over it. We can't go under it. We can't go under it We're just gonna have to go through it. We're gonna have to go through it Swash, swash, swash, swash, swash, we're going on a bare hunt We're going on a bare hunt I've got my binoculars. I've got my binoculars. I'm not scared. I'm not scared. Oh There's a big river We can't go over it. We can't go under it. We can't go under it. We're just gonna have to swim it I hope it's not too chilly. Splash, splash, splash, splash, we're going on a bare hunt We're going on a bare hunt I've got my binoculars. I've got my binoculars. I'm not scared. I'm not scared either Look at all that mud. So muddy We can't go over it. We can't go over it. We can't go under it. We're just gonna have to go into it We're going on a bare hunt We're going on a bare hunt We're going on a bare hunt I've got my binoculars. I've got my binoculars. I'm not scared. I'm not scared. Uh oh What's that? It's a cave. We can't go over it. We can't go under it. We can't go under it. We're just gonna have to go into it. Are you sure? Step, step, step, step, we're going on a bare hunt, we're going on a bare hunt Hey, hey, hey, hey, hey, hey, I've got my binoculars. I've got my binoculars. Do not scare I'm a little scared. It sure is dark in here. What's that in the corner? I feel too big ears. I feel too big ears. I feel one when I know what that is. What? It's a bear. Let's get out of here. Let's run back through the cat. Step, step, step. Okay, quickly back through the mud. Switch, switch, switch. Okay, let's cross the river. Flash, flash, flash. And quick through the tall grass. Switch, switch, switch. And quick through the yard. Up the stairs into the house. Close the door. Woo. We're safe. That was a close one. Let's not go bare hunting anymore. We're going on a bare hunt.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.88,
+      "text": " We're going on a bare hunt",
+      "tokens": [
+        50364,
+        492,
+        434,
+        516,
+        322,
+        257,
+        6949,
+        12454,
+        50464
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.24029114222762607,
+      "compression_ratio": 2.122448979591837,
+      "no_speech_prob": 0.5327005386352539,
+      "words": [
+        {
+          "word": " We're",
+          "start": 0.0,
+          "end": 0.42,
+          "probability": 0.6174376010894775
+        },
+        {
+          "word": " going",
+          "start": 0.42,
+          "end": 0.78,
+          "probability": 0.9527426958084106
+        },
+        {
+          "word": " on",
+          "start": 0.78,
+          "end": 1.1,
+          "probability": 0.9861472249031067
+        },
+        {
+          "word": " a",
+          "start": 1.1,
+          "end": 1.22,
+          "probability": 0.9764524102210999
+        },
+        {
+          "word": " bare",
+          "start": 1.22,
+          "end": 1.52,
+          "probability": 0.6508026719093323
+        },
+        {
+          "word": " hunt",
+          "start": 1.52,
+          "end": 1.88,
+          "probability": 0.6638988852500916
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 3.2200000000000006,
+      "end": 5.34,
+      "text": " We're going on a bare hunt",
+      "tokens": [
+        50522,
+        492,
+        434,
+        516,
+        322,
+        257,
+        6949,
+        12454,
+        50622
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.24029114222762607,
+      "compression_ratio": 2.122448979591837,
+      "no_speech_prob": 0.5327005386352539,
+      "words": [
+        {
+          "word": " We're",
+          "start": 3.2200000000000006,
+          "end": 3.76,
+          "probability": 0.7438302338123322
+        },
+        {
+          "word": " going",
+          "start": 3.76,
+          "end": 4.1,
+          "probability": 0.9911205172538757
+        },
+        {
+          "word": " on",
+          "start": 4.1,
+          "end": 4.42,
+          "probability": 0.9954972267150879
+        },
+        {
+          "word": " a",
+          "start": 4.42,
+          "end": 4.56,
+          "probability": 0.9917370676994324
+        },
+        {
+          "word": " bare",
+          "start": 4.56,
+          "end": 4.84,
+          "probability": 0.9430651664733887
+        },
+        {
+          "word": " hunt",
+          "start": 4.84,
+          "end": 5.34,
+          "probability": 0.9714897274971008
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.840000000000001,
+      "end": 13.32,
+      "text": " I've got my binoculars. I've got my binoculars. I'm not scared. I'm not scared",
+      "tokens": [
+        50702,
+        286,
+        600,
+        658,
+        452,
+        5171,
+        905,
+        42891,
+        13,
+        286,
+        600,
+        658,
+        452,
+        5171,
+        905,
+        42891,
+        13,
+        286,
+        478,
+        406,
+        5338,
+        13,
+        286,
+        478,
+        406,
+        5338,
+        51022
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.24029114222762607,
+      "compression_ratio": 2.122448979591837,
+      "no_speech_prob": 0.5327005386352539,
+      "words": [
+        {
+          "word": " I've",
+          "start": 6.840000000000001,
+          "end": 7.38,
+          "probability": 0.8568036258220673
+        },
+        {
+          "word": " got",
+          "start": 7.38,
+          "end": 7.44,
+          "probability": 0.9952776432037354
+        },
+        {
+          "word": " my",
+          "start": 7.44,
+          "end": 7.7,
+          "probability": 0.9915458559989929
+        },
+        {
+          "word": " binoculars.",
+          "start": 7.7,
+          "end": 8.46,
+          "probability": 0.9883763392766317
+        },
+        {
+          "word": " I've",
+          "start": 8.58,
+          "end": 9.02,
+          "probability": 0.9912883043289185
+        },
+        {
+          "word": " got",
+          "start": 9.02,
+          "end": 9.12,
+          "probability": 0.9971442818641663
+        },
+        {
+          "word": " my",
+          "start": 9.12,
+          "end": 9.34,
+          "probability": 0.9968509078025818
+        },
+        {
+          "word": " binoculars.",
+          "start": 9.34,
+          "end": 10.12,
+          "probability": 0.9976976116498312
+        },
+        {
+          "word": " I'm",
+          "start": 10.24,
+          "end": 10.78,
+          "probability": 0.9982049465179443
+        },
+        {
+          "word": " not",
+          "start": 10.78,
+          "end": 11.04,
+          "probability": 0.9951189756393433
+        },
+        {
+          "word": " scared.",
+          "start": 11.04,
+          "end": 11.56,
+          "probability": 0.9853348731994629
+        },
+        {
+          "word": " I'm",
+          "start": 12.0,
+          "end": 12.54,
+          "probability": 0.9913328289985657
+        },
+        {
+          "word": " not",
+          "start": 12.54,
+          "end": 12.72,
+          "probability": 0.995474636554718
+        },
+        {
+          "word": " scared",
+          "start": 12.72,
+          "end": 13.32,
+          "probability": 0.9925147891044617
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 14.5,
+      "end": 22.06,
+      "text": " Look at that tall wavy grass. It's so tall. We can go over it. We can't go under it. We can't go under it",
+      "tokens": [
+        51092,
+        2053,
+        412,
+        300,
+        6764,
+        261,
+        15498,
+        8054,
+        13,
+        467,
+        311,
+        370,
+        6764,
+        13,
+        492,
+        393,
+        352,
+        670,
+        309,
+        13,
+        492,
+        393,
+        380,
+        352,
+        833,
+        309,
+        13,
+        492,
+        393,
+        380,
+        352,
+        833,
+        309,
+        51464
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.24029114222762607,
+      "compression_ratio": 2.122448979591837,
+      "no_speech_prob": 0.5327005386352539,
+      "words": [
+        {
+          "word": " Look",
+          "start": 14.5,
+          "end": 15.04,
+          "probability": 0.10334846377372742
+        },
+        {
+          "word": " at",
+          "start": 15.04,
+          "end": 15.22,
+          "probability": 0.9980883002281189
+        },
+        {
+          "word": " that",
+          "start": 15.22,
+          "end": 15.36,
+          "probability": 0.9978013634681702
+        },
+        {
+          "word": " tall",
+          "start": 15.36,
+          "end": 15.7,
+          "probability": 0.9671187400817871
+        },
+        {
+          "word": " wavy",
+          "start": 15.7,
+          "end": 16.16,
+          "probability": 0.8693184554576874
+        },
+        {
+          "word": " grass.",
+          "start": 16.16,
+          "end": 16.42,
+          "probability": 0.9657056331634521
+        },
+        {
+          "word": " It's",
+          "start": 16.68,
+          "end": 16.74,
+          "probability": 0.9953840970993042
+        },
+        {
+          "word": " so",
+          "start": 16.74,
+          "end": 16.94,
+          "probability": 0.9773907661437988
+        },
+        {
+          "word": " tall.",
+          "start": 16.94,
+          "end": 17.5,
+          "probability": 0.9967905879020691
+        },
+        {
+          "word": " We",
+          "start": 17.5,
+          "end": 17.86,
+          "probability": 0.9899680614471436
+        },
+        {
+          "word": " can",
+          "start": 17.86,
+          "end": 18.08,
+          "probability": 0.998818576335907
+        },
+        {
+          "word": " go",
+          "start": 18.08,
+          "end": 18.32,
+          "probability": 0.41911110281944275
+        },
+        {
+          "word": " over",
+          "start": 18.32,
+          "end": 18.62,
+          "probability": 0.9939604997634888
+        },
+        {
+          "word": " it.",
+          "start": 18.62,
+          "end": 19.16,
+          "probability": 0.988166332244873
+        },
+        {
+          "word": " We",
+          "start": 19.2,
+          "end": 19.52,
+          "probability": 0.9970705509185791
+        },
+        {
+          "word": " can't",
+          "start": 19.52,
+          "end": 19.86,
+          "probability": 0.9154735207557678
+        },
+        {
+          "word": " go",
+          "start": 19.86,
+          "end": 19.98,
+          "probability": 0.9962888956069946
+        },
+        {
+          "word": " under",
+          "start": 19.98,
+          "end": 20.24,
+          "probability": 0.9919981360435486
+        },
+        {
+          "word": " it.",
+          "start": 20.24,
+          "end": 20.48,
+          "probability": 0.9864861965179443
+        },
+        {
+          "word": " We",
+          "start": 20.88,
+          "end": 21.18,
+          "probability": 0.9960481524467468
+        },
+        {
+          "word": " can't",
+          "start": 21.18,
+          "end": 21.58,
+          "probability": 0.8956385850906372
+        },
+        {
+          "word": " go",
+          "start": 21.58,
+          "end": 21.64,
+          "probability": 0.9987859129905701
+        },
+        {
+          "word": " under",
+          "start": 21.64,
+          "end": 21.9,
+          "probability": 0.9946303367614746
+        },
+        {
+          "word": " it",
+          "start": 21.9,
+          "end": 22.06,
+          "probability": 0.9834858179092407
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 22.06,
+      "end": 25.6,
+      "text": " We're just gonna have to go through it. We're gonna have to go through it",
+      "tokens": [
+        51464,
+        492,
+        434,
+        445,
+        799,
+        362,
+        281,
+        352,
+        807,
+        309,
+        13,
+        492,
+        434,
+        799,
+        362,
+        281,
+        352,
+        807,
+        309,
+        51644
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.24029114222762607,
+      "compression_ratio": 2.122448979591837,
+      "no_speech_prob": 0.5327005386352539,
+      "words": [
+        {
+          "word": " We're",
+          "start": 22.06,
+          "end": 22.3,
+          "probability": 0.7318294942378998
+        },
+        {
+          "word": " just",
+          "start": 22.3,
+          "end": 22.42,
+          "probability": 0.9949225783348083
+        },
+        {
+          "word": " gonna",
+          "start": 22.42,
+          "end": 22.78,
+          "probability": 0.8619776368141174
+        },
+        {
+          "word": " have",
+          "start": 22.78,
+          "end": 23.06,
+          "probability": 0.9983623623847961
+        },
+        {
+          "word": " to",
+          "start": 23.06,
+          "end": 23.22,
+          "probability": 0.9998214840888977
+        },
+        {
+          "word": " go",
+          "start": 23.22,
+          "end": 23.38,
+          "probability": 0.998060405254364
+        },
+        {
+          "word": " through",
+          "start": 23.38,
+          "end": 23.72,
+          "probability": 0.9973834156990051
+        },
+        {
+          "word": " it.",
+          "start": 23.72,
+          "end": 23.92,
+          "probability": 0.984733521938324
+        },
+        {
+          "word": " We're",
+          "start": 24.06,
+          "end": 24.12,
+          "probability": 0.9957751631736755
+        },
+        {
+          "word": " gonna",
+          "start": 24.12,
+          "end": 24.46,
+          "probability": 0.9200048446655273
+        },
+        {
+          "word": " have",
+          "start": 24.46,
+          "end": 24.72,
+          "probability": 0.9968662858009338
+        },
+        {
+          "word": " to",
+          "start": 24.72,
+          "end": 24.9,
+          "probability": 0.999451220035553
+        },
+        {
+          "word": " go",
+          "start": 24.9,
+          "end": 25.08,
+          "probability": 0.9971718192100525
+        },
+        {
+          "word": " through",
+          "start": 25.08,
+          "end": 25.38,
+          "probability": 0.9958754181861877
+        },
+        {
+          "word": " it",
+          "start": 25.38,
+          "end": 25.65,
+          "probability": 0.9829372763633728
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 2565,
+      "start": 26.73,
+      "end": 30.25,
+      "text": " Swash, swash, swash, swash, swash, we're going on a bare hunt",
+      "tokens": [
+        50414,
+        3926,
+        1299,
+        11,
+        1693,
+        1299,
+        11,
+        1693,
+        1299,
+        11,
+        1693,
+        1299,
+        11,
+        1693,
+        1299,
+        11,
+        321,
+        434,
+        516,
+        322,
+        257,
+        6949,
+        12454,
+        50592
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.29179012074190025,
+      "compression_ratio": 2.125,
+      "no_speech_prob": 0.05826907977461815,
+      "words": [
+        {
+          "word": " Swash,",
+          "start": 26.73,
+          "end": 27.29,
+          "probability": 0.14052506536245346
+        },
+        {
+          "word": " swash,",
+          "start": 27.45,
+          "end": 27.79,
+          "probability": 0.7520146667957306
+        },
+        {
+          "word": " swash,",
+          "start": 28.33,
+          "end": 28.35,
+          "probability": 0.9500703811645508
+        },
+        {
+          "word": " swash,",
+          "start": 28.35,
+          "end": 28.53,
+          "probability": 0.8975299000740051
+        },
+        {
+          "word": " swash,",
+          "start": 28.63,
+          "end": 28.63,
+          "probability": 0.8579006493091583
+        },
+        {
+          "word": " we're",
+          "start": 28.65,
+          "end": 28.73,
+          "probability": 0.5625975579023361
+        },
+        {
+          "word": " going",
+          "start": 28.73,
+          "end": 29.09,
+          "probability": 0.8572158217430115
+        },
+        {
+          "word": " on",
+          "start": 29.09,
+          "end": 29.45,
+          "probability": 0.9744554758071899
+        },
+        {
+          "word": " a",
+          "start": 29.45,
+          "end": 29.57,
+          "probability": 0.960640549659729
+        },
+        {
+          "word": " bare",
+          "start": 29.57,
+          "end": 29.87,
+          "probability": 0.2483038604259491
+        },
+        {
+          "word": " hunt",
+          "start": 29.87,
+          "end": 30.25,
+          "probability": 0.929498016834259
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 2565,
+      "start": 31.51,
+      "end": 33.77,
+      "text": " We're going on a bare hunt",
+      "tokens": [
+        50656,
+        492,
+        434,
+        516,
+        322,
+        257,
+        6949,
+        12454,
+        50756
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.29179012074190025,
+      "compression_ratio": 2.125,
+      "no_speech_prob": 0.05826907977461815,
+      "words": [
+        {
+          "word": " We're",
+          "start": 31.51,
+          "end": 32.07,
+          "probability": 0.6190385296940804
+        },
+        {
+          "word": " going",
+          "start": 32.07,
+          "end": 32.35,
+          "probability": 0.9810702800750732
+        },
+        {
+          "word": " on",
+          "start": 32.35,
+          "end": 32.75,
+          "probability": 0.9961273074150085
+        },
+        {
+          "word": " a",
+          "start": 32.75,
+          "end": 32.91,
+          "probability": 0.9973980188369751
+        },
+        {
+          "word": " bare",
+          "start": 32.91,
+          "end": 33.17,
+          "probability": 0.995993971824646
+        },
+        {
+          "word": " hunt",
+          "start": 33.17,
+          "end": 33.77,
+          "probability": 0.9979450106620789
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 2565,
+      "start": 35.13,
+      "end": 42.11,
+      "text": " I've got my binoculars. I've got my binoculars. I'm not scared. I'm not scared. Oh",
+      "tokens": [
+        50832,
+        286,
+        600,
+        658,
+        452,
+        5171,
+        905,
+        42891,
+        13,
+        286,
+        600,
+        658,
+        452,
+        5171,
+        905,
+        42891,
+        13,
+        286,
+        478,
+        406,
+        5338,
+        13,
+        286,
+        478,
+        406,
+        5338,
+        13,
+        876,
+        51180
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.29179012074190025,
+      "compression_ratio": 2.125,
+      "no_speech_prob": 0.05826907977461815,
+      "words": [
+        {
+          "word": " I've",
+          "start": 35.13,
+          "end": 35.69,
+          "probability": 0.9078913331031799
+        },
+        {
+          "word": " got",
+          "start": 35.69,
+          "end": 35.79,
+          "probability": 0.9976782202720642
+        },
+        {
+          "word": " my",
+          "start": 35.79,
+          "end": 36.01,
+          "probability": 0.4373151957988739
+        },
+        {
+          "word": " binoculars.",
+          "start": 36.01,
+          "end": 36.75,
+          "probability": 0.8172165850798289
+        },
+        {
+          "word": " I've",
+          "start": 37.17,
+          "end": 37.37,
+          "probability": 0.9784282147884369
+        },
+        {
+          "word": " got",
+          "start": 37.37,
+          "end": 37.45,
+          "probability": 0.9990972280502319
+        },
+        {
+          "word": " my",
+          "start": 37.45,
+          "end": 37.63,
+          "probability": 0.9838735461235046
+        },
+        {
+          "word": " binoculars.",
+          "start": 37.63,
+          "end": 38.43,
+          "probability": 0.9980210463205973
+        },
+        {
+          "word": " I'm",
+          "start": 38.65,
+          "end": 39.21,
+          "probability": 0.9943369030952454
+        },
+        {
+          "word": " not",
+          "start": 39.21,
+          "end": 39.39,
+          "probability": 0.9968414306640625
+        },
+        {
+          "word": " scared.",
+          "start": 39.39,
+          "end": 39.85,
+          "probability": 0.9937155842781067
+        },
+        {
+          "word": " I'm",
+          "start": 40.45,
+          "end": 40.85,
+          "probability": 0.986664205789566
+        },
+        {
+          "word": " not",
+          "start": 40.85,
+          "end": 41.03,
+          "probability": 0.995840847492218
+        },
+        {
+          "word": " scared.",
+          "start": 41.03,
+          "end": 41.57,
+          "probability": 0.9976906776428223
+        },
+        {
+          "word": " Oh",
+          "start": 41.97,
+          "end": 42.11,
+          "probability": 0.7877523899078369
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 2565,
+      "start": 43.09,
+      "end": 44.97,
+      "text": " There's a big river",
+      "tokens": [
+        51236,
+        821,
+        311,
+        257,
+        955,
+        6810,
+        51336
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.29179012074190025,
+      "compression_ratio": 2.125,
+      "no_speech_prob": 0.05826907977461815,
+      "words": [
+        {
+          "word": " There's",
+          "start": 43.09,
+          "end": 43.65,
+          "probability": 0.5229545347392559
+        },
+        {
+          "word": " a",
+          "start": 43.65,
+          "end": 43.89,
+          "probability": 0.995182454586029
+        },
+        {
+          "word": " big",
+          "start": 43.89,
+          "end": 44.41,
+          "probability": 0.9281308650970459
+        },
+        {
+          "word": " river",
+          "start": 44.41,
+          "end": 44.97,
+          "probability": 0.9808493256568909
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 2565,
+      "start": 47.03000000000001,
+      "end": 53.77,
+      "text": " We can't go over it. We can't go under it. We can't go under it. We're just gonna have to swim it",
+      "tokens": [
+        51450,
+        492,
+        393,
+        380,
+        352,
+        670,
+        309,
+        13,
+        492,
+        393,
+        380,
+        352,
+        833,
+        309,
+        13,
+        492,
+        393,
+        380,
+        352,
+        833,
+        309,
+        13,
+        492,
+        434,
+        445,
+        799,
+        362,
+        281,
+        7110,
+        309,
+        51764
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.29179012074190025,
+      "compression_ratio": 2.125,
+      "no_speech_prob": 0.05826907977461815,
+      "words": [
+        {
+          "word": " We",
+          "start": 47.03000000000001,
+          "end": 47.59,
+          "probability": 0.3369123041629791
+        },
+        {
+          "word": " can't",
+          "start": 47.59,
+          "end": 48.15,
+          "probability": 0.9792748987674713
+        },
+        {
+          "word": " go",
+          "start": 48.15,
+          "end": 48.31,
+          "probability": 0.997253954410553
+        },
+        {
+          "word": " over",
+          "start": 48.31,
+          "end": 48.61,
+          "probability": 0.9799078702926636
+        },
+        {
+          "word": " it.",
+          "start": 48.61,
+          "end": 48.89,
+          "probability": 0.9694720506668091
+        },
+        {
+          "word": " We",
+          "start": 49.29,
+          "end": 49.53,
+          "probability": 0.9949382543563843
+        },
+        {
+          "word": " can't",
+          "start": 49.53,
+          "end": 49.83,
+          "probability": 0.9907324314117432
+        },
+        {
+          "word": " go",
+          "start": 49.83,
+          "end": 49.97,
+          "probability": 0.9961963891983032
+        },
+        {
+          "word": " under",
+          "start": 49.97,
+          "end": 50.27,
+          "probability": 0.9814975261688232
+        },
+        {
+          "word": " it.",
+          "start": 50.27,
+          "end": 50.71,
+          "probability": 0.9202510118484497
+        },
+        {
+          "word": " We",
+          "start": 50.73,
+          "end": 51.19,
+          "probability": 0.995895266532898
+        },
+        {
+          "word": " can't",
+          "start": 51.19,
+          "end": 51.49,
+          "probability": 0.9954622983932495
+        },
+        {
+          "word": " go",
+          "start": 51.49,
+          "end": 51.65,
+          "probability": 0.9980722665786743
+        },
+        {
+          "word": " under",
+          "start": 51.65,
+          "end": 51.91,
+          "probability": 0.9921109676361084
+        },
+        {
+          "word": " it.",
+          "start": 51.91,
+          "end": 52.09,
+          "probability": 0.9788821339607239
+        },
+        {
+          "word": " We're",
+          "start": 52.19,
+          "end": 52.27,
+          "probability": 0.9867017567157745
+        },
+        {
+          "word": " just",
+          "start": 52.27,
+          "end": 52.45,
+          "probability": 0.9965733289718628
+        },
+        {
+          "word": " gonna",
+          "start": 52.45,
+          "end": 52.81,
+          "probability": 0.7703083753585815
+        },
+        {
+          "word": " have",
+          "start": 52.81,
+          "end": 53.07,
+          "probability": 0.9988231062889099
+        },
+        {
+          "word": " to",
+          "start": 53.07,
+          "end": 53.25,
+          "probability": 0.999160647392273
+        },
+        {
+          "word": " swim",
+          "start": 53.25,
+          "end": 53.51,
+          "probability": 0.9950153231620789
+        },
+        {
+          "word": " it",
+          "start": 53.51,
+          "end": 53.77,
+          "probability": 0.5267965197563171
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 5377,
+      "start": 53.77,
+      "end": 58.55,
+      "text": " I hope it's not too chilly. Splash, splash, splash, splash, we're going on a bare hunt",
+      "tokens": [
+        50364,
+        286,
+        1454,
+        309,
+        311,
+        406,
+        886,
+        39815,
+        13,
+        19788,
+        1299,
+        11,
+        25757,
+        11,
+        25757,
+        11,
+        25757,
+        11,
+        321,
+        434,
+        516,
+        322,
+        257,
+        6949,
+        12454,
+        50592
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.26503728706145957,
+      "compression_ratio": 2.049689440993789,
+      "no_speech_prob": 0.014447852037847042,
+      "words": [
+        {
+          "word": " I",
+          "start": 53.77,
+          "end": 54.17,
+          "probability": 0.7445868849754333
+        },
+        {
+          "word": " hope",
+          "start": 54.17,
+          "end": 54.33,
+          "probability": 0.9757362008094788
+        },
+        {
+          "word": " it's",
+          "start": 54.33,
+          "end": 54.61,
+          "probability": 0.97353795170784
+        },
+        {
+          "word": " not",
+          "start": 54.61,
+          "end": 54.75,
+          "probability": 0.9960489869117737
+        },
+        {
+          "word": " too",
+          "start": 54.75,
+          "end": 54.95,
+          "probability": 0.960594117641449
+        },
+        {
+          "word": " chilly.",
+          "start": 54.95,
+          "end": 55.31,
+          "probability": 0.9329925775527954
+        },
+        {
+          "word": " Splash,",
+          "start": 55.41,
+          "end": 55.79,
+          "probability": 0.526000052690506
+        },
+        {
+          "word": " splash,",
+          "start": 56.07,
+          "end": 56.07,
+          "probability": 0.9032188653945923
+        },
+        {
+          "word": " splash,",
+          "start": 56.59,
+          "end": 56.59,
+          "probability": 0.9845072031021118
+        },
+        {
+          "word": " splash,",
+          "start": 56.75,
+          "end": 56.87,
+          "probability": 0.9588230848312378
+        },
+        {
+          "word": " we're",
+          "start": 56.97,
+          "end": 57.09,
+          "probability": 0.6603369563817978
+        },
+        {
+          "word": " going",
+          "start": 57.09,
+          "end": 57.43,
+          "probability": 0.8935620784759521
+        },
+        {
+          "word": " on",
+          "start": 57.43,
+          "end": 57.77,
+          "probability": 0.9704535007476807
+        },
+        {
+          "word": " a",
+          "start": 57.77,
+          "end": 57.89,
+          "probability": 0.9703670740127563
+        },
+        {
+          "word": " bare",
+          "start": 57.89,
+          "end": 58.19,
+          "probability": 0.17567065358161926
+        },
+        {
+          "word": " hunt",
+          "start": 58.19,
+          "end": 58.55,
+          "probability": 0.8753411769866943
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 5377,
+      "start": 59.849999999999994,
+      "end": 61.99,
+      "text": " We're going on a bare hunt",
+      "tokens": [
+        50668,
+        492,
+        434,
+        516,
+        322,
+        257,
+        6949,
+        12454,
+        50768
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.26503728706145957,
+      "compression_ratio": 2.049689440993789,
+      "no_speech_prob": 0.014447852037847042,
+      "words": [
+        {
+          "word": " We're",
+          "start": 59.849999999999994,
+          "end": 60.41,
+          "probability": 0.5491689145565033
+        },
+        {
+          "word": " going",
+          "start": 60.41,
+          "end": 60.61,
+          "probability": 0.977247416973114
+        },
+        {
+          "word": " on",
+          "start": 60.61,
+          "end": 61.07,
+          "probability": 0.9960370659828186
+        },
+        {
+          "word": " a",
+          "start": 61.07,
+          "end": 61.23,
+          "probability": 0.997372031211853
+        },
+        {
+          "word": " bare",
+          "start": 61.23,
+          "end": 61.53,
+          "probability": 0.9946759939193726
+        },
+        {
+          "word": " hunt",
+          "start": 61.53,
+          "end": 61.99,
+          "probability": 0.9945308566093445
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 5377,
+      "start": 63.489999999999995,
+      "end": 70.21,
+      "text": " I've got my binoculars. I've got my binoculars. I'm not scared. I'm not scared either",
+      "tokens": [
+        50844,
+        286,
+        600,
+        658,
+        452,
+        5171,
+        905,
+        42891,
+        13,
+        286,
+        600,
+        658,
+        452,
+        5171,
+        905,
+        42891,
+        13,
+        286,
+        478,
+        406,
+        5338,
+        13,
+        286,
+        478,
+        406,
+        5338,
+        2139,
+        51166
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.26503728706145957,
+      "compression_ratio": 2.049689440993789,
+      "no_speech_prob": 0.014447852037847042,
+      "words": [
+        {
+          "word": " I've",
+          "start": 63.489999999999995,
+          "end": 64.05,
+          "probability": 0.6819120645523071
+        },
+        {
+          "word": " got",
+          "start": 64.05,
+          "end": 64.13,
+          "probability": 0.997739315032959
+        },
+        {
+          "word": " my",
+          "start": 64.13,
+          "end": 64.35,
+          "probability": 0.650124192237854
+        },
+        {
+          "word": " binoculars.",
+          "start": 64.35,
+          "end": 65.11,
+          "probability": 0.9531845450401306
+        },
+        {
+          "word": " I've",
+          "start": 65.33,
+          "end": 65.69,
+          "probability": 0.9876896739006042
+        },
+        {
+          "word": " got",
+          "start": 65.69,
+          "end": 65.79,
+          "probability": 0.9985001087188721
+        },
+        {
+          "word": " my",
+          "start": 65.79,
+          "end": 65.99,
+          "probability": 0.9931018352508545
+        },
+        {
+          "word": " binoculars.",
+          "start": 65.99,
+          "end": 66.85,
+          "probability": 0.9989758531252543
+        },
+        {
+          "word": " I'm",
+          "start": 67.23,
+          "end": 67.51,
+          "probability": 0.995510995388031
+        },
+        {
+          "word": " not",
+          "start": 67.51,
+          "end": 67.69,
+          "probability": 0.995194137096405
+        },
+        {
+          "word": " scared.",
+          "start": 67.69,
+          "end": 68.15,
+          "probability": 0.9875187277793884
+        },
+        {
+          "word": " I'm",
+          "start": 68.55,
+          "end": 69.07,
+          "probability": 0.9890056252479553
+        },
+        {
+          "word": " not",
+          "start": 69.07,
+          "end": 69.19,
+          "probability": 0.9964101910591125
+        },
+        {
+          "word": " scared",
+          "start": 69.19,
+          "end": 69.59,
+          "probability": 0.9969758987426758
+        },
+        {
+          "word": " either",
+          "start": 69.59,
+          "end": 70.21,
+          "probability": 0.8552823662757874
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "seek": 5377,
+      "start": 70.89,
+      "end": 73.25,
+      "text": " Look at all that mud. So muddy",
+      "tokens": [
+        51220,
+        2053,
+        412,
+        439,
+        300,
+        8933,
+        13,
+        407,
+        38540,
+        51320
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.26503728706145957,
+      "compression_ratio": 2.049689440993789,
+      "no_speech_prob": 0.014447852037847042,
+      "words": [
+        {
+          "word": " Look",
+          "start": 70.89,
+          "end": 71.21,
+          "probability": 0.15616188943386078
+        },
+        {
+          "word": " at",
+          "start": 71.21,
+          "end": 71.53,
+          "probability": 0.9946422576904297
+        },
+        {
+          "word": " all",
+          "start": 71.53,
+          "end": 71.69,
+          "probability": 0.9914639592170715
+        },
+        {
+          "word": " that",
+          "start": 71.69,
+          "end": 71.87,
+          "probability": 0.9945563077926636
+        },
+        {
+          "word": " mud.",
+          "start": 71.87,
+          "end": 72.11,
+          "probability": 0.9951322674751282
+        },
+        {
+          "word": " So",
+          "start": 72.37,
+          "end": 72.91,
+          "probability": 0.35687485337257385
+        },
+        {
+          "word": " muddy",
+          "start": 72.91,
+          "end": 73.25,
+          "probability": 0.9344803690910339
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "seek": 5377,
+      "start": 73.95,
+      "end": 81.05,
+      "text": " We can't go over it. We can't go over it. We can't go under it. We're just gonna have to go into it",
+      "tokens": [
+        51374,
+        492,
+        393,
+        380,
+        352,
+        670,
+        309,
+        13,
+        492,
+        393,
+        380,
+        352,
+        670,
+        309,
+        13,
+        492,
+        393,
+        380,
+        352,
+        833,
+        309,
+        13,
+        492,
+        434,
+        445,
+        799,
+        362,
+        281,
+        352,
+        666,
+        309,
+        51718
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.26503728706145957,
+      "compression_ratio": 2.049689440993789,
+      "no_speech_prob": 0.014447852037847042,
+      "words": [
+        {
+          "word": " We",
+          "start": 73.95,
+          "end": 74.51,
+          "probability": 0.46408042311668396
+        },
+        {
+          "word": " can't",
+          "start": 74.51,
+          "end": 74.85,
+          "probability": 0.9389422237873077
+        },
+        {
+          "word": " go",
+          "start": 74.85,
+          "end": 74.99,
+          "probability": 0.9983516931533813
+        },
+        {
+          "word": " over",
+          "start": 74.99,
+          "end": 75.25,
+          "probability": 0.9985432624816895
+        },
+        {
+          "word": " it.",
+          "start": 75.25,
+          "end": 75.43,
+          "probability": 0.9946017265319824
+        },
+        {
+          "word": " We",
+          "start": 75.77,
+          "end": 76.19,
+          "probability": 0.9944413304328918
+        },
+        {
+          "word": " can't",
+          "start": 76.19,
+          "end": 76.47,
+          "probability": 0.9925539493560791
+        },
+        {
+          "word": " go",
+          "start": 76.47,
+          "end": 76.65,
+          "probability": 0.9985476136207581
+        },
+        {
+          "word": " over",
+          "start": 76.65,
+          "end": 76.91,
+          "probability": 0.9984884262084961
+        },
+        {
+          "word": " it.",
+          "start": 76.91,
+          "end": 77.13,
+          "probability": 0.9928339719772339
+        },
+        {
+          "word": " We",
+          "start": 77.37,
+          "end": 77.85,
+          "probability": 0.9954379200935364
+        },
+        {
+          "word": " can't",
+          "start": 77.85,
+          "end": 78.15,
+          "probability": 0.9939197599887848
+        },
+        {
+          "word": " go",
+          "start": 78.15,
+          "end": 78.31,
+          "probability": 0.9991257786750793
+        },
+        {
+          "word": " under",
+          "start": 78.31,
+          "end": 78.55,
+          "probability": 0.9917557239532471
+        },
+        {
+          "word": " it.",
+          "start": 78.55,
+          "end": 78.73,
+          "probability": 0.9966933727264404
+        },
+        {
+          "word": " We're",
+          "start": 78.87,
+          "end": 78.97,
+          "probability": 0.9741119742393494
+        },
+        {
+          "word": " just",
+          "start": 78.97,
+          "end": 79.07,
+          "probability": 0.9960930943489075
+        },
+        {
+          "word": " gonna",
+          "start": 79.07,
+          "end": 79.43,
+          "probability": 0.8692079782485962
+        },
+        {
+          "word": " have",
+          "start": 79.43,
+          "end": 79.73,
+          "probability": 0.9972398281097412
+        },
+        {
+          "word": " to",
+          "start": 79.73,
+          "end": 79.91,
+          "probability": 0.9993199110031128
+        },
+        {
+          "word": " go",
+          "start": 79.91,
+          "end": 80.15,
+          "probability": 0.9982934594154358
+        },
+        {
+          "word": " into",
+          "start": 80.15,
+          "end": 80.55,
+          "probability": 0.9864766597747803
+        },
+        {
+          "word": " it",
+          "start": 80.55,
+          "end": 81.05,
+          "probability": 0.9985436201095581
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "seek": 8105,
+      "start": 83.19,
+      "end": 85.27,
+      "text": " We're going on a bare hunt",
+      "tokens": [
+        50364,
+        492,
+        434,
+        516,
+        322,
+        257,
+        6949,
+        12454,
+        50464
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.21617253621419272,
+      "compression_ratio": 2.1690140845070425,
+      "no_speech_prob": 0.07165983319282532,
+      "words": [
+        {
+          "word": " We're",
+          "start": 83.19,
+          "end": 83.77,
+          "probability": 0.468967592343688
+        },
+        {
+          "word": " going",
+          "start": 83.77,
+          "end": 84.07,
+          "probability": 0.8463380932807922
+        },
+        {
+          "word": " on",
+          "start": 84.07,
+          "end": 84.43,
+          "probability": 0.9212203025817871
+        },
+        {
+          "word": " a",
+          "start": 84.43,
+          "end": 84.57,
+          "probability": 0.9439452290534973
+        },
+        {
+          "word": " bare",
+          "start": 84.57,
+          "end": 84.85,
+          "probability": 0.5553814172744751
+        },
+        {
+          "word": " hunt",
+          "start": 84.85,
+          "end": 85.27,
+          "probability": 0.7569859027862549
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "seek": 8105,
+      "start": 86.51,
+      "end": 88.71,
+      "text": " We're going on a bare hunt",
+      "tokens": [
+        50464,
+        492,
+        434,
+        516,
+        322,
+        257,
+        6949,
+        12454,
+        50564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.21617253621419272,
+      "compression_ratio": 2.1690140845070425,
+      "no_speech_prob": 0.07165983319282532,
+      "words": [
+        {
+          "word": " We're",
+          "start": 86.51,
+          "end": 87.09,
+          "probability": 0.5530305169522762
+        },
+        {
+          "word": " going",
+          "start": 87.09,
+          "end": 87.41,
+          "probability": 0.9709529280662537
+        },
+        {
+          "word": " on",
+          "start": 87.41,
+          "end": 87.73,
+          "probability": 0.9939091205596924
+        },
+        {
+          "word": " a",
+          "start": 87.73,
+          "end": 87.89,
+          "probability": 0.9917604923248291
+        },
+        {
+          "word": " bare",
+          "start": 87.89,
+          "end": 88.23,
+          "probability": 0.9882888793945312
+        },
+        {
+          "word": " hunt",
+          "start": 88.23,
+          "end": 88.71,
+          "probability": 0.9942413568496704
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "seek": 8105,
+      "start": 88.71,
+      "end": 88.79,
+      "text": " We're going on a bare hunt",
+      "tokens": [
+        50564,
+        492,
+        434,
+        516,
+        322,
+        257,
+        6949,
+        12454,
+        50664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.21617253621419272,
+      "compression_ratio": 2.1690140845070425,
+      "no_speech_prob": 0.07165983319282532,
+      "words": [
+        {
+          "word": " We're",
+          "start": 88.71,
+          "end": 88.79,
+          "probability": 0.49295000499114394
+        },
+        {
+          "word": " going",
+          "start": 88.79,
+          "end": 88.79,
+          "probability": 0.9282323122024536
+        },
+        {
+          "word": " on",
+          "start": 88.79,
+          "end": 88.79,
+          "probability": 0.9752973914146423
+        },
+        {
+          "word": " a",
+          "start": 88.79,
+          "end": 88.79,
+          "probability": 0.9884600639343262
+        },
+        {
+          "word": " bare",
+          "start": 88.79,
+          "end": 88.79,
+          "probability": 0.9945896863937378
+        },
+        {
+          "word": " hunt",
+          "start": 88.79,
+          "end": 88.79,
+          "probability": 0.9971701502799988
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "seek": 8105,
+      "start": 90.13,
+      "end": 97.75,
+      "text": " I've got my binoculars. I've got my binoculars. I'm not scared. I'm not scared. Uh oh",
+      "tokens": [
+        50664,
+        286,
+        600,
+        658,
+        452,
+        5171,
+        905,
+        42891,
+        13,
+        286,
+        600,
+        658,
+        452,
+        5171,
+        905,
+        42891,
+        13,
+        286,
+        478,
+        406,
+        5338,
+        13,
+        286,
+        478,
+        406,
+        5338,
+        13,
+        4019,
+        1954,
+        51064
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.21617253621419272,
+      "compression_ratio": 2.1690140845070425,
+      "no_speech_prob": 0.07165983319282532,
+      "words": [
+        {
+          "word": " I've",
+          "start": 90.13,
+          "end": 90.71,
+          "probability": 0.7742174863815308
+        },
+        {
+          "word": " got",
+          "start": 90.71,
+          "end": 90.79,
+          "probability": 0.986003041267395
+        },
+        {
+          "word": " my",
+          "start": 90.79,
+          "end": 91.01,
+          "probability": 0.6005358695983887
+        },
+        {
+          "word": " binoculars.",
+          "start": 91.01,
+          "end": 91.77,
+          "probability": 0.8892809947331747
+        },
+        {
+          "word": " I've",
+          "start": 91.93,
+          "end": 92.37,
+          "probability": 0.9744287133216858
+        },
+        {
+          "word": " got",
+          "start": 92.37,
+          "end": 92.47,
+          "probability": 0.9968542456626892
+        },
+        {
+          "word": " my",
+          "start": 92.47,
+          "end": 92.65,
+          "probability": 0.9901783466339111
+        },
+        {
+          "word": " binoculars.",
+          "start": 92.65,
+          "end": 93.49,
+          "probability": 0.9990810950597128
+        },
+        {
+          "word": " I'm",
+          "start": 93.61,
+          "end": 94.19,
+          "probability": 0.9942313134670258
+        },
+        {
+          "word": " not",
+          "start": 94.19,
+          "end": 94.39,
+          "probability": 0.9906209707260132
+        },
+        {
+          "word": " scared.",
+          "start": 94.39,
+          "end": 94.85,
+          "probability": 0.9966089725494385
+        },
+        {
+          "word": " I'm",
+          "start": 95.35,
+          "end": 95.85,
+          "probability": 0.9235400259494781
+        },
+        {
+          "word": " not",
+          "start": 95.85,
+          "end": 96.05,
+          "probability": 0.9941095113754272
+        },
+        {
+          "word": " scared.",
+          "start": 96.05,
+          "end": 96.69,
+          "probability": 0.9976220726966858
+        },
+        {
+          "word": " Uh",
+          "start": 97.21,
+          "end": 97.55,
+          "probability": 0.4639407992362976
+        },
+        {
+          "word": " oh",
+          "start": 97.55,
+          "end": 97.75,
+          "probability": 0.4330812394618988
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "seek": 8105,
+      "start": 97.75,
+      "end": 108.55,
+      "text": " What's that? It's a cave. We can't go over it. We can't go under it. We can't go under it. We're just gonna have to go into it. Are you sure?",
+      "tokens": [
+        51064,
+        708,
+        311,
+        300,
+        30,
+        467,
+        311,
+        257,
+        11730,
+        13,
+        492,
+        393,
+        380,
+        352,
+        670,
+        309,
+        13,
+        492,
+        393,
+        380,
+        352,
+        833,
+        309,
+        13,
+        492,
+        393,
+        380,
+        352,
+        833,
+        309,
+        13,
+        492,
+        434,
+        445,
+        799,
+        362,
+        281,
+        352,
+        666,
+        309,
+        13,
+        2014,
+        291,
+        988,
+        30,
+        51664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.21617253621419272,
+      "compression_ratio": 2.1690140845070425,
+      "no_speech_prob": 0.07165983319282532,
+      "words": [
+        {
+          "word": " What's",
+          "start": 97.75,
+          "end": 98.35,
+          "probability": 0.6267292350530624
+        },
+        {
+          "word": " that?",
+          "start": 98.35,
+          "end": 98.59,
+          "probability": 0.9944781064987183
+        },
+        {
+          "word": " It's",
+          "start": 99.45,
+          "end": 100.03,
+          "probability": 0.9580539464950562
+        },
+        {
+          "word": " a",
+          "start": 100.03,
+          "end": 100.09,
+          "probability": 0.9963468909263611
+        },
+        {
+          "word": " cave.",
+          "start": 100.09,
+          "end": 100.39,
+          "probability": 0.9876755475997925
+        },
+        {
+          "word": " We",
+          "start": 101.15,
+          "end": 101.19,
+          "probability": 0.98001629114151
+        },
+        {
+          "word": " can't",
+          "start": 101.19,
+          "end": 101.49,
+          "probability": 0.8997848927974701
+        },
+        {
+          "word": " go",
+          "start": 101.49,
+          "end": 101.67,
+          "probability": 0.9979769587516785
+        },
+        {
+          "word": " over",
+          "start": 101.67,
+          "end": 101.91,
+          "probability": 0.993965208530426
+        },
+        {
+          "word": " it.",
+          "start": 101.91,
+          "end": 102.15,
+          "probability": 0.9778913259506226
+        },
+        {
+          "word": " We",
+          "start": 102.53,
+          "end": 102.85,
+          "probability": 0.9942631125450134
+        },
+        {
+          "word": " can't",
+          "start": 102.85,
+          "end": 103.21,
+          "probability": 0.9246563017368317
+        },
+        {
+          "word": " go",
+          "start": 103.21,
+          "end": 103.31,
+          "probability": 0.9978793859481812
+        },
+        {
+          "word": " under",
+          "start": 103.31,
+          "end": 103.57,
+          "probability": 0.9841170907020569
+        },
+        {
+          "word": " it.",
+          "start": 103.57,
+          "end": 103.77,
+          "probability": 0.9892416596412659
+        },
+        {
+          "word": " We",
+          "start": 104.43,
+          "end": 104.53,
+          "probability": 0.994152843952179
+        },
+        {
+          "word": " can't",
+          "start": 104.53,
+          "end": 104.83,
+          "probability": 0.9907585382461548
+        },
+        {
+          "word": " go",
+          "start": 104.83,
+          "end": 104.97,
+          "probability": 0.998068630695343
+        },
+        {
+          "word": " under",
+          "start": 104.97,
+          "end": 105.25,
+          "probability": 0.9894344210624695
+        },
+        {
+          "word": " it.",
+          "start": 105.25,
+          "end": 105.41,
+          "probability": 0.9918917417526245
+        },
+        {
+          "word": " We're",
+          "start": 105.51,
+          "end": 105.55,
+          "probability": 0.9393962323665619
+        },
+        {
+          "word": " just",
+          "start": 105.55,
+          "end": 105.75,
+          "probability": 0.9940124154090881
+        },
+        {
+          "word": " gonna",
+          "start": 105.75,
+          "end": 106.15,
+          "probability": 0.8778058886528015
+        },
+        {
+          "word": " have",
+          "start": 106.15,
+          "end": 106.41,
+          "probability": 0.9964953064918518
+        },
+        {
+          "word": " to",
+          "start": 106.41,
+          "end": 106.57,
+          "probability": 0.9994044303894043
+        },
+        {
+          "word": " go",
+          "start": 106.57,
+          "end": 106.77,
+          "probability": 0.9973976612091064
+        },
+        {
+          "word": " into",
+          "start": 106.77,
+          "end": 107.23,
+          "probability": 0.9678500294685364
+        },
+        {
+          "word": " it.",
+          "start": 107.23,
+          "end": 107.57,
+          "probability": 0.9985849857330322
+        },
+        {
+          "word": " Are",
+          "start": 107.71,
+          "end": 107.83,
+          "probability": 0.9916328191757202
+        },
+        {
+          "word": " you",
+          "start": 107.83,
+          "end": 108.01,
+          "probability": 0.9983433485031128
+        },
+        {
+          "word": " sure?",
+          "start": 108.01,
+          "end": 108.55,
+          "probability": 0.9977042078971863
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "seek": 10855,
+      "start": 108.55,
+      "end": 115.45,
+      "text": " Step, step, step, step, we're going on a bare hunt, we're going on a bare hunt",
+      "tokens": [
+        50364,
+        5470,
+        11,
+        1823,
+        11,
+        1823,
+        11,
+        1823,
+        11,
+        321,
+        434,
+        516,
+        322,
+        257,
+        6949,
+        12454,
+        11,
+        321,
+        434,
+        516,
+        322,
+        257,
+        6949,
+        12454,
+        50664
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.22669264735007771,
+      "compression_ratio": 2.0,
+      "no_speech_prob": 0.028202349320054054,
+      "words": [
+        {
+          "word": " Step,",
+          "start": 108.55,
+          "end": 108.93,
+          "probability": 0.6453200578689575
+        },
+        {
+          "word": " step,",
+          "start": 109.15,
+          "end": 109.37,
+          "probability": 0.962040901184082
+        },
+        {
+          "word": " step,",
+          "start": 109.59,
+          "end": 109.83,
+          "probability": 0.9844555854797363
+        },
+        {
+          "word": " step,",
+          "start": 109.99,
+          "end": 110.21,
+          "probability": 0.8498433232307434
+        },
+        {
+          "word": " we're",
+          "start": 110.33,
+          "end": 110.43,
+          "probability": 0.6896259784698486
+        },
+        {
+          "word": " going",
+          "start": 110.43,
+          "end": 110.75,
+          "probability": 0.8580804467201233
+        },
+        {
+          "word": " on",
+          "start": 110.75,
+          "end": 111.11,
+          "probability": 0.9822366237640381
+        },
+        {
+          "word": " a",
+          "start": 111.11,
+          "end": 111.21,
+          "probability": 0.9792079329490662
+        },
+        {
+          "word": " bare",
+          "start": 111.21,
+          "end": 111.53,
+          "probability": 0.4370356798171997
+        },
+        {
+          "word": " hunt,",
+          "start": 111.53,
+          "end": 111.85,
+          "probability": 0.7830725312232971
+        },
+        {
+          "word": " we're",
+          "start": 111.85,
+          "end": 113.71,
+          "probability": 0.6365330964326859
+        },
+        {
+          "word": " going",
+          "start": 113.71,
+          "end": 114.03,
+          "probability": 0.9740663766860962
+        },
+        {
+          "word": " on",
+          "start": 114.03,
+          "end": 114.41,
+          "probability": 0.9943566918373108
+        },
+        {
+          "word": " a",
+          "start": 114.41,
+          "end": 114.57,
+          "probability": 0.9953084588050842
+        },
+        {
+          "word": " bare",
+          "start": 114.57,
+          "end": 114.89,
+          "probability": 0.990888237953186
+        },
+        {
+          "word": " hunt",
+          "start": 114.89,
+          "end": 115.45,
+          "probability": 0.9896277189254761
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "seek": 10855,
+      "start": 115.45,
+      "end": 121.53,
+      "text": " Hey, hey, hey, hey, hey, hey, I've got my binoculars. I've got my binoculars. Do not scare",
+      "tokens": [
+        50664,
+        1911,
+        11,
+        4177,
+        11,
+        4177,
+        11,
+        4177,
+        11,
+        4177,
+        11,
+        4177,
+        11,
+        286,
+        600,
+        658,
+        452,
+        5171,
+        905,
+        42891,
+        13,
+        286,
+        600,
+        658,
+        452,
+        5171,
+        905,
+        42891,
+        13,
+        1144,
+        406,
+        17185,
+        50964
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.22669264735007771,
+      "compression_ratio": 2.0,
+      "no_speech_prob": 0.028202349320054054,
+      "words": [
+        {
+          "word": " Hey,",
+          "start": 115.45,
+          "end": 115.83,
+          "probability": 0.19717875123023987
+        },
+        {
+          "word": " hey,",
+          "start": 116.05,
+          "end": 116.27,
+          "probability": 0.9266329407691956
+        },
+        {
+          "word": " hey,",
+          "start": 116.55,
+          "end": 116.73,
+          "probability": 0.9814280271530151
+        },
+        {
+          "word": " hey,",
+          "start": 116.83,
+          "end": 117.11,
+          "probability": 0.8551851511001587
+        },
+        {
+          "word": " hey,",
+          "start": 117.19,
+          "end": 117.19,
+          "probability": 0.3306158483028412
+        },
+        {
+          "word": " hey,",
+          "start": 117.25,
+          "end": 117.25,
+          "probability": 0.12411114573478699
+        },
+        {
+          "word": " I've",
+          "start": 117.25,
+          "end": 117.37,
+          "probability": 0.73325514793396
+        },
+        {
+          "word": " got",
+          "start": 117.37,
+          "end": 117.45,
+          "probability": 0.9973446726799011
+        },
+        {
+          "word": " my",
+          "start": 117.45,
+          "end": 117.69,
+          "probability": 0.2973986268043518
+        },
+        {
+          "word": " binoculars.",
+          "start": 117.69,
+          "end": 118.47,
+          "probability": 0.9421685139338175
+        },
+        {
+          "word": " I've",
+          "start": 118.83,
+          "end": 119.03,
+          "probability": 0.9492979645729065
+        },
+        {
+          "word": " got",
+          "start": 119.03,
+          "end": 119.11,
+          "probability": 0.9992327690124512
+        },
+        {
+          "word": " my",
+          "start": 119.11,
+          "end": 119.31,
+          "probability": 0.9856131672859192
+        },
+        {
+          "word": " binoculars.",
+          "start": 119.31,
+          "end": 120.13,
+          "probability": 0.9988821546236674
+        },
+        {
+          "word": " Do",
+          "start": 120.19,
+          "end": 120.67,
+          "probability": 0.6128587126731873
+        },
+        {
+          "word": " not",
+          "start": 120.67,
+          "end": 121.05,
+          "probability": 0.9470193982124329
+        },
+        {
+          "word": " scare",
+          "start": 121.05,
+          "end": 121.53,
+          "probability": 0.8625321984291077
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "seek": 10855,
+      "start": 123.71,
+      "end": 133.13,
+      "text": " I'm a little scared. It sure is dark in here. What's that in the corner? I feel too big ears. I feel too big ears. I feel one when",
+      "tokens": [
+        51164,
+        286,
+        478,
+        257,
+        707,
+        5338,
+        13,
+        467,
+        988,
+        307,
+        2877,
+        294,
+        510,
+        13,
+        708,
+        311,
+        300,
+        294,
+        264,
+        4538,
+        30,
+        286,
+        841,
+        886,
+        955,
+        8798,
+        13,
+        286,
+        841,
+        886,
+        955,
+        8798,
+        13,
+        286,
+        841,
+        472,
+        562,
+        51564
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.22669264735007771,
+      "compression_ratio": 2.0,
+      "no_speech_prob": 0.028202349320054054,
+      "words": [
+        {
+          "word": " I'm",
+          "start": 123.71,
+          "end": 124.19,
+          "probability": 0.5968355908989906
+        },
+        {
+          "word": " a",
+          "start": 124.19,
+          "end": 124.23,
+          "probability": 0.9988240599632263
+        },
+        {
+          "word": " little",
+          "start": 124.23,
+          "end": 124.41,
+          "probability": 0.9981067180633545
+        },
+        {
+          "word": " scared.",
+          "start": 124.41,
+          "end": 124.93,
+          "probability": 0.9987971782684326
+        },
+        {
+          "word": " It",
+          "start": 125.21,
+          "end": 125.35,
+          "probability": 0.9776217937469482
+        },
+        {
+          "word": " sure",
+          "start": 125.35,
+          "end": 125.61,
+          "probability": 0.9578437805175781
+        },
+        {
+          "word": " is",
+          "start": 125.61,
+          "end": 125.83,
+          "probability": 0.9989526271820068
+        },
+        {
+          "word": " dark",
+          "start": 125.83,
+          "end": 126.07,
+          "probability": 0.9935365319252014
+        },
+        {
+          "word": " in",
+          "start": 126.07,
+          "end": 126.25,
+          "probability": 0.9533841609954834
+        },
+        {
+          "word": " here.",
+          "start": 126.25,
+          "end": 126.51,
+          "probability": 0.9993938207626343
+        },
+        {
+          "word": " What's",
+          "start": 127.07,
+          "end": 127.31,
+          "probability": 0.989033579826355
+        },
+        {
+          "word": " that",
+          "start": 127.31,
+          "end": 127.41,
+          "probability": 0.7698725461959839
+        },
+        {
+          "word": " in",
+          "start": 127.41,
+          "end": 127.55,
+          "probability": 0.9644984006881714
+        },
+        {
+          "word": " the",
+          "start": 127.55,
+          "end": 127.67,
+          "probability": 0.8028914332389832
+        },
+        {
+          "word": " corner?",
+          "start": 127.67,
+          "end": 128.01,
+          "probability": 0.99913090467453
+        },
+        {
+          "word": " I",
+          "start": 128.51,
+          "end": 128.57,
+          "probability": 0.9709312319755554
+        },
+        {
+          "word": " feel",
+          "start": 128.57,
+          "end": 128.87,
+          "probability": 0.9956983327865601
+        },
+        {
+          "word": " too",
+          "start": 128.87,
+          "end": 129.41,
+          "probability": 0.2919312119483948
+        },
+        {
+          "word": " big",
+          "start": 129.41,
+          "end": 129.87,
+          "probability": 0.9936316609382629
+        },
+        {
+          "word": " ears.",
+          "start": 129.87,
+          "end": 130.39,
+          "probability": 0.8211655020713806
+        },
+        {
+          "word": " I",
+          "start": 130.55,
+          "end": 130.63,
+          "probability": 0.9966589212417603
+        },
+        {
+          "word": " feel",
+          "start": 130.63,
+          "end": 130.81,
+          "probability": 0.9955947995185852
+        },
+        {
+          "word": " too",
+          "start": 130.81,
+          "end": 131.09,
+          "probability": 0.9634667038917542
+        },
+        {
+          "word": " big",
+          "start": 131.09,
+          "end": 131.55,
+          "probability": 0.9958717226982117
+        },
+        {
+          "word": " ears.",
+          "start": 131.55,
+          "end": 132.05,
+          "probability": 0.9763003587722778
+        },
+        {
+          "word": " I",
+          "start": 132.29,
+          "end": 132.29,
+          "probability": 0.9969130754470825
+        },
+        {
+          "word": " feel",
+          "start": 132.29,
+          "end": 132.45,
+          "probability": 0.9959490299224854
+        },
+        {
+          "word": " one",
+          "start": 132.45,
+          "end": 132.77,
+          "probability": 0.9529253840446472
+        },
+        {
+          "word": " when",
+          "start": 132.77,
+          "end": 133.13,
+          "probability": 0.772445023059845
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "seek": 13313,
+      "start": 139.47,
+      "end": 151.99,
+      "text": " I know what that is. What? It's a bear. Let's get out of here. Let's run back through the cat. Step, step, step. Okay, quickly back through the mud.",
+      "tokens": [
+        50364,
+        286,
+        458,
+        437,
+        300,
+        307,
+        13,
+        708,
+        30,
+        467,
+        311,
+        257,
+        6155,
+        13,
+        961,
+        311,
+        483,
+        484,
+        295,
+        510,
+        13,
+        961,
+        311,
+        1190,
+        646,
+        807,
+        264,
+        3857,
+        13,
+        5470,
+        11,
+        1823,
+        11,
+        1823,
+        13,
+        1033,
+        11,
+        2661,
+        646,
+        807,
+        264,
+        8933,
+        13,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3141114400780719,
+      "compression_ratio": 1.3333333333333333,
+      "no_speech_prob": 0.01777403987944126,
+      "words": [
+        {
+          "word": " I",
+          "start": 139.47,
+          "end": 139.99,
+          "probability": 0.1185142993927002
+        },
+        {
+          "word": " know",
+          "start": 139.99,
+          "end": 140.25,
+          "probability": 0.4802466332912445
+        },
+        {
+          "word": " what",
+          "start": 140.25,
+          "end": 140.63,
+          "probability": 0.9608737826347351
+        },
+        {
+          "word": " that",
+          "start": 140.63,
+          "end": 140.89,
+          "probability": 0.9858378767967224
+        },
+        {
+          "word": " is.",
+          "start": 140.89,
+          "end": 141.51,
+          "probability": 0.9966527819633484
+        },
+        {
+          "word": " What?",
+          "start": 141.61,
+          "end": 141.87,
+          "probability": 0.8258551359176636
+        },
+        {
+          "word": " It's",
+          "start": 142.17,
+          "end": 142.35,
+          "probability": 0.9478776454925537
+        },
+        {
+          "word": " a",
+          "start": 142.35,
+          "end": 142.45,
+          "probability": 0.9911447167396545
+        },
+        {
+          "word": " bear.",
+          "start": 142.45,
+          "end": 142.81,
+          "probability": 0.9817911386489868
+        },
+        {
+          "word": " Let's",
+          "start": 143.21,
+          "end": 143.73,
+          "probability": 0.9664448201656342
+        },
+        {
+          "word": " get",
+          "start": 143.73,
+          "end": 143.91,
+          "probability": 0.9817934036254883
+        },
+        {
+          "word": " out",
+          "start": 143.91,
+          "end": 144.35,
+          "probability": 0.9436226487159729
+        },
+        {
+          "word": " of",
+          "start": 144.35,
+          "end": 144.53,
+          "probability": 0.989858090877533
+        },
+        {
+          "word": " here.",
+          "start": 144.53,
+          "end": 144.95,
+          "probability": 0.9993568062782288
+        },
+        {
+          "word": " Let's",
+          "start": 146.21,
+          "end": 146.73,
+          "probability": 0.9404776096343994
+        },
+        {
+          "word": " run",
+          "start": 146.73,
+          "end": 146.85,
+          "probability": 0.9529351592063904
+        },
+        {
+          "word": " back",
+          "start": 146.85,
+          "end": 147.03,
+          "probability": 0.9871829748153687
+        },
+        {
+          "word": " through",
+          "start": 147.03,
+          "end": 147.25,
+          "probability": 0.9474985003471375
+        },
+        {
+          "word": " the",
+          "start": 147.25,
+          "end": 147.49,
+          "probability": 0.9968673586845398
+        },
+        {
+          "word": " cat.",
+          "start": 147.49,
+          "end": 147.73,
+          "probability": 0.33552661538124084
+        },
+        {
+          "word": " Step,",
+          "start": 148.35,
+          "end": 148.67,
+          "probability": 0.04498136416077614
+        },
+        {
+          "word": " step,",
+          "start": 148.79,
+          "end": 148.95,
+          "probability": 0.9794042110443115
+        },
+        {
+          "word": " step.",
+          "start": 149.21,
+          "end": 149.51,
+          "probability": 0.9985941052436829
+        },
+        {
+          "word": " Okay,",
+          "start": 150.13,
+          "end": 150.47,
+          "probability": 0.7248089909553528
+        },
+        {
+          "word": " quickly",
+          "start": 150.73,
+          "end": 151.03,
+          "probability": 0.9929893016815186
+        },
+        {
+          "word": " back",
+          "start": 151.03,
+          "end": 151.35,
+          "probability": 0.896851122379303
+        },
+        {
+          "word": " through",
+          "start": 151.35,
+          "end": 151.61,
+          "probability": 0.9898520112037659
+        },
+        {
+          "word": " the",
+          "start": 151.61,
+          "end": 151.79,
+          "probability": 0.9986529350280762
+        },
+        {
+          "word": " mud.",
+          "start": 151.79,
+          "end": 151.99,
+          "probability": 0.7849841117858887
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "seek": 15199,
+      "start": 151.99,
+      "end": 165.95,
+      "text": " Switch, switch, switch. Okay, let's cross the river. Flash, flash, flash. And quick through the tall grass. Switch, switch, switch. And quick through the yard. Up the stairs into the house. Close the door.",
+      "tokens": [
+        50364,
+        13893,
+        11,
+        3679,
+        11,
+        3679,
+        13,
+        1033,
+        11,
+        718,
+        311,
+        3278,
+        264,
+        6810,
+        13,
+        20232,
+        11,
+        7319,
+        11,
+        7319,
+        13,
+        400,
+        1702,
+        807,
+        264,
+        6764,
+        8054,
+        13,
+        13893,
+        11,
+        3679,
+        11,
+        3679,
+        13,
+        400,
+        1702,
+        807,
+        264,
+        11682,
+        13,
+        5858,
+        264,
+        13471,
+        666,
+        264,
+        1782,
+        13,
+        16346,
+        264,
+        2853,
+        13,
+        51064
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2515326752059761,
+      "compression_ratio": 1.6961325966850829,
+      "no_speech_prob": 0.07844692468643188,
+      "words": [
+        {
+          "word": " Switch,",
+          "start": 151.99,
+          "end": 152.31,
+          "probability": 0.05015437304973602
+        },
+        {
+          "word": " switch,",
+          "start": 152.51,
+          "end": 152.71,
+          "probability": 0.6654183268547058
+        },
+        {
+          "word": " switch.",
+          "start": 152.93,
+          "end": 153.33,
+          "probability": 0.7893754839897156
+        },
+        {
+          "word": " Okay,",
+          "start": 153.57,
+          "end": 153.81,
+          "probability": 0.7564604878425598
+        },
+        {
+          "word": " let's",
+          "start": 153.91,
+          "end": 154.19,
+          "probability": 0.9735376834869385
+        },
+        {
+          "word": " cross",
+          "start": 154.19,
+          "end": 154.41,
+          "probability": 0.9841826558113098
+        },
+        {
+          "word": " the",
+          "start": 154.41,
+          "end": 154.69,
+          "probability": 0.9968488812446594
+        },
+        {
+          "word": " river.",
+          "start": 154.69,
+          "end": 154.95,
+          "probability": 0.9922006726264954
+        },
+        {
+          "word": " Flash,",
+          "start": 155.33,
+          "end": 155.67,
+          "probability": 0.18448062241077423
+        },
+        {
+          "word": " flash,",
+          "start": 155.87,
+          "end": 156.05,
+          "probability": 0.5261064171791077
+        },
+        {
+          "word": " flash.",
+          "start": 156.31,
+          "end": 156.51,
+          "probability": 0.9596244692802429
+        },
+        {
+          "word": " And",
+          "start": 156.87,
+          "end": 156.97,
+          "probability": 0.8081103563308716
+        },
+        {
+          "word": " quick",
+          "start": 156.97,
+          "end": 157.29,
+          "probability": 0.8846842646598816
+        },
+        {
+          "word": " through",
+          "start": 157.29,
+          "end": 157.65,
+          "probability": 0.9493981003761292
+        },
+        {
+          "word": " the",
+          "start": 157.65,
+          "end": 157.81,
+          "probability": 0.998172402381897
+        },
+        {
+          "word": " tall",
+          "start": 157.81,
+          "end": 158.17,
+          "probability": 0.8178418278694153
+        },
+        {
+          "word": " grass.",
+          "start": 158.17,
+          "end": 158.53,
+          "probability": 0.9034836292266846
+        },
+        {
+          "word": " Switch,",
+          "start": 158.77,
+          "end": 158.95,
+          "probability": 0.9359562397003174
+        },
+        {
+          "word": " switch,",
+          "start": 159.17,
+          "end": 159.37,
+          "probability": 0.9873991012573242
+        },
+        {
+          "word": " switch.",
+          "start": 159.59,
+          "end": 159.83,
+          "probability": 0.9896442890167236
+        },
+        {
+          "word": " And",
+          "start": 160.25,
+          "end": 160.39,
+          "probability": 0.9903802871704102
+        },
+        {
+          "word": " quick",
+          "start": 160.39,
+          "end": 160.71,
+          "probability": 0.9964789748191833
+        },
+        {
+          "word": " through",
+          "start": 160.71,
+          "end": 161.07,
+          "probability": 0.9896765351295471
+        },
+        {
+          "word": " the",
+          "start": 161.07,
+          "end": 161.27,
+          "probability": 0.99787437915802
+        },
+        {
+          "word": " yard.",
+          "start": 161.27,
+          "end": 161.77,
+          "probability": 0.9908663630485535
+        },
+        {
+          "word": " Up",
+          "start": 162.17,
+          "end": 162.37,
+          "probability": 0.9686737656593323
+        },
+        {
+          "word": " the",
+          "start": 162.37,
+          "end": 162.57,
+          "probability": 0.9762805700302124
+        },
+        {
+          "word": " stairs",
+          "start": 162.57,
+          "end": 163.23,
+          "probability": 0.9976626634597778
+        },
+        {
+          "word": " into",
+          "start": 163.23,
+          "end": 163.79,
+          "probability": 0.3936035633087158
+        },
+        {
+          "word": " the",
+          "start": 163.79,
+          "end": 164.15,
+          "probability": 0.9986369013786316
+        },
+        {
+          "word": " house.",
+          "start": 164.15,
+          "end": 164.57,
+          "probability": 0.9948874115943909
+        },
+        {
+          "word": " Close",
+          "start": 165.05,
+          "end": 165.25,
+          "probability": 0.9211854934692383
+        },
+        {
+          "word": " the",
+          "start": 165.25,
+          "end": 165.61,
+          "probability": 0.9949944019317627
+        },
+        {
+          "word": " door.",
+          "start": 165.61,
+          "end": 165.95,
+          "probability": 0.9866691827774048
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "seek": 15199,
+      "start": 167.15,
+      "end": 167.47,
+      "text": " Woo.",
+      "tokens": [
+        51064,
+        10468,
+        13,
+        51164
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2515326752059761,
+      "compression_ratio": 1.6961325966850829,
+      "no_speech_prob": 0.07844692468643188,
+      "words": [
+        {
+          "word": " Woo.",
+          "start": 167.15,
+          "end": 167.47,
+          "probability": 0.4914431869983673
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "seek": 15199,
+      "start": 169.11,
+      "end": 173.41,
+      "text": " We're safe. That was a close one. Let's not go bare hunting anymore.",
+      "tokens": [
+        51164,
+        492,
+        434,
+        3273,
+        13,
+        663,
+        390,
+        257,
+        1998,
+        472,
+        13,
+        961,
+        311,
+        406,
+        352,
+        6949,
+        12599,
+        3602,
+        13,
+        51464
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2515326752059761,
+      "compression_ratio": 1.6961325966850829,
+      "no_speech_prob": 0.07844692468643188,
+      "words": [
+        {
+          "word": " We're",
+          "start": 169.11,
+          "end": 169.65,
+          "probability": 0.731138750910759
+        },
+        {
+          "word": " safe.",
+          "start": 169.65,
+          "end": 169.97,
+          "probability": 0.9985478520393372
+        },
+        {
+          "word": " That",
+          "start": 170.49,
+          "end": 170.61,
+          "probability": 0.9977042078971863
+        },
+        {
+          "word": " was",
+          "start": 170.61,
+          "end": 170.73,
+          "probability": 0.9971837401390076
+        },
+        {
+          "word": " a",
+          "start": 170.73,
+          "end": 170.87,
+          "probability": 0.9976812601089478
+        },
+        {
+          "word": " close",
+          "start": 170.87,
+          "end": 171.13,
+          "probability": 0.979820728302002
+        },
+        {
+          "word": " one.",
+          "start": 171.13,
+          "end": 171.45,
+          "probability": 0.9958673715591431
+        },
+        {
+          "word": " Let's",
+          "start": 171.65,
+          "end": 171.87,
+          "probability": 0.9932788014411926
+        },
+        {
+          "word": " not",
+          "start": 171.87,
+          "end": 172.09,
+          "probability": 0.9970194697380066
+        },
+        {
+          "word": " go",
+          "start": 172.09,
+          "end": 172.33,
+          "probability": 0.9939576387405396
+        },
+        {
+          "word": " bare",
+          "start": 172.33,
+          "end": 172.55,
+          "probability": 0.5298240780830383
+        },
+        {
+          "word": " hunting",
+          "start": 172.55,
+          "end": 172.81,
+          "probability": 0.8956870436668396
+        },
+        {
+          "word": " anymore.",
+          "start": 172.81,
+          "end": 173.41,
+          "probability": 0.9762246012687683
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "seek": 15199,
+      "start": 174.87,
+      "end": 176.85,
+      "text": " We're going on a bare hunt.",
+      "tokens": [
+        51464,
+        492,
+        434,
+        516,
+        322,
+        257,
+        6949,
+        12454,
+        13,
+        51664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2515326752059761,
+      "compression_ratio": 1.6961325966850829,
+      "no_speech_prob": 0.07844692468643188,
+      "words": [
+        {
+          "word": " We're",
+          "start": 174.87,
+          "end": 175.41,
+          "probability": 0.7350131124258041
+        },
+        {
+          "word": " going",
+          "start": 175.41,
+          "end": 175.65,
+          "probability": 0.961840808391571
+        },
+        {
+          "word": " on",
+          "start": 175.65,
+          "end": 176.03,
+          "probability": 0.9948393702507019
+        },
+        {
+          "word": " a",
+          "start": 176.03,
+          "end": 176.19,
+          "probability": 0.9915452599525452
+        },
+        {
+          "word": " bare",
+          "start": 176.19,
+          "end": 176.49,
+          "probability": 0.9731996059417725
+        },
+        {
+          "word": " hunt.",
+          "start": 176.49,
+          "end": 176.85,
+          "probability": 0.9536603093147278
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

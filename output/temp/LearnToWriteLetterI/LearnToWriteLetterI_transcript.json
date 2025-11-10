@@ -1,0 +1,1687 @@
+{
+  "text": " I is a letter standing so tall Let's learn to write it, it's fun for all Start at the top, pick, line down Back to the top, move on over Little line across, down to the bottom Little line across, that's the letter I Let's learn to write it, it's fun for all I is for Ireland in the sea, so wide I is for a glue where penguins hide I is for insects buzzing by So many things that start with I Start at the top, pick, line down Back to the top, move on over Little line across, down to the bottom Little line across, that's the letter I That's the letter I I is for ice cream cold and sweet Melting fast in the summer heat I is for iguana climbing high Look at that lizard go walking by Start at the top, pick, line down Back to the top, move on over Little line across, down to the bottom Little line across, down, that's the letter I That's the letter I",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.12,
+      "text": " I is a letter standing so tall",
+      "tokens": [
+        50364,
+        286,
+        307,
+        257,
+        5063,
+        4877,
+        370,
+        6764,
+        50574
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3846215205406075,
+      "compression_ratio": 1.5467625899280575,
+      "no_speech_prob": 0.680015504360199,
+      "words": [
+        {
+          "word": " I",
+          "start": 0.0,
+          "end": 0.28,
+          "probability": 0.29100480675697327
+        },
+        {
+          "word": " is",
+          "start": 0.28,
+          "end": 1.42,
+          "probability": 0.21866406500339508
+        },
+        {
+          "word": " a",
+          "start": 1.42,
+          "end": 1.62,
+          "probability": 0.7770291566848755
+        },
+        {
+          "word": " letter",
+          "start": 1.62,
+          "end": 2.16,
+          "probability": 0.7798554301261902
+        },
+        {
+          "word": " standing",
+          "start": 2.16,
+          "end": 3.1,
+          "probability": 0.6397711038589478
+        },
+        {
+          "word": " so",
+          "start": 3.1,
+          "end": 3.42,
+          "probability": 0.9834153652191162
+        },
+        {
+          "word": " tall",
+          "start": 3.42,
+          "end": 4.12,
+          "probability": 0.999916672706604
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 7.400000000000002,
+      "end": 11.74,
+      "text": " Let's learn to write it, it's fun for all",
+      "tokens": [
+        50734,
+        961,
+        311,
+        1466,
+        281,
+        2464,
+        309,
+        11,
+        309,
+        311,
+        1019,
+        337,
+        439,
+        50954
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3846215205406075,
+      "compression_ratio": 1.5467625899280575,
+      "no_speech_prob": 0.680015504360199,
+      "words": [
+        {
+          "word": " Let's",
+          "start": 7.400000000000002,
+          "end": 8.100000000000001,
+          "probability": 0.8820177614688873
+        },
+        {
+          "word": " learn",
+          "start": 8.100000000000001,
+          "end": 8.8,
+          "probability": 0.9640382528305054
+        },
+        {
+          "word": " to",
+          "start": 8.8,
+          "end": 9.06,
+          "probability": 0.9981300234794617
+        },
+        {
+          "word": " write",
+          "start": 9.06,
+          "end": 9.5,
+          "probability": 0.8324806690216064
+        },
+        {
+          "word": " it,",
+          "start": 9.5,
+          "end": 9.92,
+          "probability": 0.982266366481781
+        },
+        {
+          "word": " it's",
+          "start": 10.06,
+          "end": 10.3,
+          "probability": 0.9653416275978088
+        },
+        {
+          "word": " fun",
+          "start": 10.3,
+          "end": 10.54,
+          "probability": 0.9828716516494751
+        },
+        {
+          "word": " for",
+          "start": 10.54,
+          "end": 10.96,
+          "probability": 0.9907283782958984
+        },
+        {
+          "word": " all",
+          "start": 10.96,
+          "end": 11.74,
+          "probability": 0.9750970602035522
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 13.5,
+      "end": 16.62,
+      "text": " Start at the top, pick, line down",
+      "tokens": [
+        51064,
+        6481,
+        412,
+        264,
+        1192,
+        11,
+        1888,
+        11,
+        1622,
+        760,
+        51204
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3846215205406075,
+      "compression_ratio": 1.5467625899280575,
+      "no_speech_prob": 0.680015504360199,
+      "words": [
+        {
+          "word": " Start",
+          "start": 13.5,
+          "end": 14.2,
+          "probability": 0.8804234862327576
+        },
+        {
+          "word": " at",
+          "start": 14.2,
+          "end": 14.72,
+          "probability": 0.9963944554328918
+        },
+        {
+          "word": " the",
+          "start": 14.72,
+          "end": 14.88,
+          "probability": 0.9990516304969788
+        },
+        {
+          "word": " top,",
+          "start": 14.88,
+          "end": 15.36,
+          "probability": 0.9603464603424072
+        },
+        {
+          "word": " pick,",
+          "start": 15.52,
+          "end": 15.66,
+          "probability": 0.14454935491085052
+        },
+        {
+          "word": " line",
+          "start": 16.0,
+          "end": 16.08,
+          "probability": 0.8988401293754578
+        },
+        {
+          "word": " down",
+          "start": 16.08,
+          "end": 16.62,
+          "probability": 0.9372817873954773
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 16.62,
+      "end": 19.08,
+      "text": " Back to the top, move on over",
+      "tokens": [
+        51204,
+        5833,
+        281,
+        264,
+        1192,
+        11,
+        1286,
+        322,
+        670,
+        51314
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3846215205406075,
+      "compression_ratio": 1.5467625899280575,
+      "no_speech_prob": 0.680015504360199,
+      "words": [
+        {
+          "word": " Back",
+          "start": 16.62,
+          "end": 16.98,
+          "probability": 0.5186536312103271
+        },
+        {
+          "word": " to",
+          "start": 16.98,
+          "end": 17.24,
+          "probability": 0.9977291226387024
+        },
+        {
+          "word": " the",
+          "start": 17.24,
+          "end": 17.46,
+          "probability": 0.9960790276527405
+        },
+        {
+          "word": " top,",
+          "start": 17.46,
+          "end": 17.86,
+          "probability": 0.9985480904579163
+        },
+        {
+          "word": " move",
+          "start": 17.98,
+          "end": 18.26,
+          "probability": 0.9867369532585144
+        },
+        {
+          "word": " on",
+          "start": 18.26,
+          "end": 18.54,
+          "probability": 0.9950148463249207
+        },
+        {
+          "word": " over",
+          "start": 18.54,
+          "end": 19.08,
+          "probability": 0.9004214406013489
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 19.08,
+      "end": 21.94,
+      "text": " Little line across, down to the bottom",
+      "tokens": [
+        51314,
+        8022,
+        1622,
+        2108,
+        11,
+        760,
+        281,
+        264,
+        2767,
+        51464
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3846215205406075,
+      "compression_ratio": 1.5467625899280575,
+      "no_speech_prob": 0.680015504360199,
+      "words": [
+        {
+          "word": " Little",
+          "start": 19.08,
+          "end": 19.5,
+          "probability": 0.2478177398443222
+        },
+        {
+          "word": " line",
+          "start": 19.5,
+          "end": 19.88,
+          "probability": 0.6787307262420654
+        },
+        {
+          "word": " across,",
+          "start": 19.88,
+          "end": 20.28,
+          "probability": 0.9867664575576782
+        },
+        {
+          "word": " down",
+          "start": 20.62,
+          "end": 20.78,
+          "probability": 0.9963036775588989
+        },
+        {
+          "word": " to",
+          "start": 20.78,
+          "end": 21.02,
+          "probability": 0.9983212351799011
+        },
+        {
+          "word": " the",
+          "start": 21.02,
+          "end": 21.22,
+          "probability": 0.9985128045082092
+        },
+        {
+          "word": " bottom",
+          "start": 21.22,
+          "end": 21.94,
+          "probability": 0.9980126619338989
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 21.94,
+      "end": 26.28,
+      "text": " Little line across, that's the letter I",
+      "tokens": [
+        51464,
+        8022,
+        1622,
+        2108,
+        11,
+        300,
+        311,
+        264,
+        5063,
+        286,
+        51714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3846215205406075,
+      "compression_ratio": 1.5467625899280575,
+      "no_speech_prob": 0.680015504360199,
+      "words": [
+        {
+          "word": " Little",
+          "start": 21.94,
+          "end": 22.74,
+          "probability": 0.9560718536376953
+        },
+        {
+          "word": " line",
+          "start": 22.74,
+          "end": 23.78,
+          "probability": 0.9908986687660217
+        },
+        {
+          "word": " across,",
+          "start": 23.78,
+          "end": 24.38,
+          "probability": 0.9986686706542969
+        },
+        {
+          "word": " that's",
+          "start": 25.3,
+          "end": 25.6,
+          "probability": 0.6911230832338333
+        },
+        {
+          "word": " the",
+          "start": 25.6,
+          "end": 25.72,
+          "probability": 0.962988555431366
+        },
+        {
+          "word": " letter",
+          "start": 25.72,
+          "end": 25.96,
+          "probability": 0.9645721316337585
+        },
+        {
+          "word": " I",
+          "start": 25.96,
+          "end": 26.28,
+          "probability": 0.5729345083236694
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 2628,
+      "start": 28.68,
+      "end": 34.1,
+      "text": " Let's learn to write it, it's fun for all",
+      "tokens": [
+        50414,
+        961,
+        311,
+        1466,
+        281,
+        2464,
+        309,
+        11,
+        309,
+        311,
+        1019,
+        337,
+        439,
+        50614
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2413423711603338,
+      "compression_ratio": 1.484472049689441,
+      "no_speech_prob": 0.03292794153094292,
+      "words": [
+        {
+          "word": " Let's",
+          "start": 28.68,
+          "end": 29.36,
+          "probability": 0.47994433902204037
+        },
+        {
+          "word": " learn",
+          "start": 29.36,
+          "end": 29.56,
+          "probability": 0.004163783043622971
+        },
+        {
+          "word": " to",
+          "start": 29.56,
+          "end": 30.2,
+          "probability": 0.04233068972826004
+        },
+        {
+          "word": " write",
+          "start": 30.2,
+          "end": 30.2,
+          "probability": 0.14679619669914246
+        },
+        {
+          "word": " it,",
+          "start": 30.2,
+          "end": 30.46,
+          "probability": 0.0019078402547165751
+        },
+        {
+          "word": " it's",
+          "start": 30.46,
+          "end": 33.98,
+          "probability": 0.40097029507160187
+        },
+        {
+          "word": " fun",
+          "start": 33.98,
+          "end": 33.98,
+          "probability": 0.09552423655986786
+        },
+        {
+          "word": " for",
+          "start": 33.98,
+          "end": 34.1,
+          "probability": 0.012296910397708416
+        },
+        {
+          "word": " all",
+          "start": 34.1,
+          "end": 34.1,
+          "probability": 0.01798863708972931
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 2628,
+      "start": 34.1,
+      "end": 37.44,
+      "text": " I is for Ireland in the sea, so wide",
+      "tokens": [
+        50714,
+        286,
+        307,
+        337,
+        15880,
+        294,
+        264,
+        4158,
+        11,
+        370,
+        4874,
+        50914
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2413423711603338,
+      "compression_ratio": 1.484472049689441,
+      "no_speech_prob": 0.03292794153094292,
+      "words": [
+        {
+          "word": " I",
+          "start": 34.1,
+          "end": 34.1,
+          "probability": 0.019780350849032402
+        },
+        {
+          "word": " is",
+          "start": 34.1,
+          "end": 34.4,
+          "probability": 0.0055349450558424
+        },
+        {
+          "word": " for",
+          "start": 34.4,
+          "end": 34.58,
+          "probability": 0.8598286509513855
+        },
+        {
+          "word": " Ireland",
+          "start": 34.58,
+          "end": 35.02,
+          "probability": 0.32454198598861694
+        },
+        {
+          "word": " in",
+          "start": 35.02,
+          "end": 35.34,
+          "probability": 0.4553074538707733
+        },
+        {
+          "word": " the",
+          "start": 35.34,
+          "end": 35.5,
+          "probability": 0.9772586226463318
+        },
+        {
+          "word": " sea,",
+          "start": 35.5,
+          "end": 35.78,
+          "probability": 0.8320765495300293
+        },
+        {
+          "word": " so",
+          "start": 36.1,
+          "end": 36.3,
+          "probability": 0.937312662601471
+        },
+        {
+          "word": " wide",
+          "start": 36.3,
+          "end": 37.44,
+          "probability": 0.7267298698425293
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 2628,
+      "start": 37.44,
+      "end": 40.7,
+      "text": " I is for a glue where penguins hide",
+      "tokens": [
+        50914,
+        286,
+        307,
+        337,
+        257,
+        8998,
+        689,
+        17289,
+        44790,
+        6479,
+        51064
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2413423711603338,
+      "compression_ratio": 1.484472049689441,
+      "no_speech_prob": 0.03292794153094292,
+      "words": [
+        {
+          "word": " I",
+          "start": 37.44,
+          "end": 37.92,
+          "probability": 0.7919685244560242
+        },
+        {
+          "word": " is",
+          "start": 37.92,
+          "end": 38.14,
+          "probability": 0.7468970417976379
+        },
+        {
+          "word": " for",
+          "start": 38.14,
+          "end": 38.32,
+          "probability": 0.9935160875320435
+        },
+        {
+          "word": " a",
+          "start": 38.32,
+          "end": 38.56,
+          "probability": 0.25585171580314636
+        },
+        {
+          "word": " glue",
+          "start": 38.56,
+          "end": 38.8,
+          "probability": 0.46028733253479004
+        },
+        {
+          "word": " where",
+          "start": 38.8,
+          "end": 39.14,
+          "probability": 0.44870254397392273
+        },
+        {
+          "word": " penguins",
+          "start": 39.14,
+          "end": 40.18,
+          "probability": 0.6554215550422668
+        },
+        {
+          "word": " hide",
+          "start": 40.18,
+          "end": 40.7,
+          "probability": 0.9926484227180481
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 2628,
+      "start": 40.7,
+      "end": 44.4,
+      "text": " I is for insects buzzing by",
+      "tokens": [
+        51064,
+        286,
+        307,
+        337,
+        20201,
+        29659,
+        538,
+        51264
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2413423711603338,
+      "compression_ratio": 1.484472049689441,
+      "no_speech_prob": 0.03292794153094292,
+      "words": [
+        {
+          "word": " I",
+          "start": 40.7,
+          "end": 41.64,
+          "probability": 0.8875725865364075
+        },
+        {
+          "word": " is",
+          "start": 41.64,
+          "end": 41.88,
+          "probability": 0.6320437788963318
+        },
+        {
+          "word": " for",
+          "start": 41.88,
+          "end": 42.14,
+          "probability": 0.9944105744361877
+        },
+        {
+          "word": " insects",
+          "start": 42.14,
+          "end": 42.72,
+          "probability": 0.567588746547699
+        },
+        {
+          "word": " buzzing",
+          "start": 42.72,
+          "end": 43.78,
+          "probability": 0.93503338098526
+        },
+        {
+          "word": " by",
+          "start": 43.78,
+          "end": 44.4,
+          "probability": 0.7007219791412354
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 2628,
+      "start": 44.4,
+      "end": 48.14,
+      "text": " So many things that start with I",
+      "tokens": [
+        51264,
+        407,
+        867,
+        721,
+        300,
+        722,
+        365,
+        286,
+        51464
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2413423711603338,
+      "compression_ratio": 1.484472049689441,
+      "no_speech_prob": 0.03292794153094292,
+      "words": [
+        {
+          "word": " So",
+          "start": 44.4,
+          "end": 45.36,
+          "probability": 0.638789713382721
+        },
+        {
+          "word": " many",
+          "start": 45.36,
+          "end": 45.78,
+          "probability": 0.9970859885215759
+        },
+        {
+          "word": " things",
+          "start": 45.78,
+          "end": 46.2,
+          "probability": 0.9952735304832458
+        },
+        {
+          "word": " that",
+          "start": 46.2,
+          "end": 46.58,
+          "probability": 0.9631827473640442
+        },
+        {
+          "word": " start",
+          "start": 46.58,
+          "end": 47.08,
+          "probability": 0.9924414157867432
+        },
+        {
+          "word": " with",
+          "start": 47.08,
+          "end": 47.52,
+          "probability": 0.989866316318512
+        },
+        {
+          "word": " I",
+          "start": 47.52,
+          "end": 48.14,
+          "probability": 0.6374963521957397
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 2628,
+      "start": 49.18,
+      "end": 52.28,
+      "text": " Start at the top, pick, line down",
+      "tokens": [
+        51464,
+        6481,
+        412,
+        264,
+        1192,
+        11,
+        1888,
+        11,
+        1622,
+        760,
+        51664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2413423711603338,
+      "compression_ratio": 1.484472049689441,
+      "no_speech_prob": 0.03292794153094292,
+      "words": [
+        {
+          "word": " Start",
+          "start": 49.18,
+          "end": 49.86,
+          "probability": 0.0357842817902565
+        },
+        {
+          "word": " at",
+          "start": 49.86,
+          "end": 50.34,
+          "probability": 0.9869177937507629
+        },
+        {
+          "word": " the",
+          "start": 50.34,
+          "end": 50.5,
+          "probability": 0.9982125759124756
+        },
+        {
+          "word": " top,",
+          "start": 50.5,
+          "end": 50.86,
+          "probability": 0.9020193815231323
+        },
+        {
+          "word": " pick,",
+          "start": 51.06,
+          "end": 51.32,
+          "probability": 0.04596804082393646
+        },
+        {
+          "word": " line",
+          "start": 51.58,
+          "end": 51.76,
+          "probability": 0.9652567505836487
+        },
+        {
+          "word": " down",
+          "start": 51.76,
+          "end": 52.28,
+          "probability": 0.9746807217597961
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 2628,
+      "start": 52.28,
+      "end": 54.74,
+      "text": " Back to the top, move on over",
+      "tokens": [
+        51664,
+        5833,
+        281,
+        264,
+        1192,
+        11,
+        1286,
+        322,
+        670,
+        51764
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2413423711603338,
+      "compression_ratio": 1.484472049689441,
+      "no_speech_prob": 0.03292794153094292,
+      "words": [
+        {
+          "word": " Back",
+          "start": 52.28,
+          "end": 52.62,
+          "probability": 0.32149988412857056
+        },
+        {
+          "word": " to",
+          "start": 52.62,
+          "end": 52.88,
+          "probability": 0.997892439365387
+        },
+        {
+          "word": " the",
+          "start": 52.88,
+          "end": 53.08,
+          "probability": 0.9969030022621155
+        },
+        {
+          "word": " top,",
+          "start": 53.08,
+          "end": 53.44,
+          "probability": 0.9982420206069946
+        },
+        {
+          "word": " move",
+          "start": 53.7,
+          "end": 53.84,
+          "probability": 0.9876791834831238
+        },
+        {
+          "word": " on",
+          "start": 53.84,
+          "end": 54.16,
+          "probability": 0.9909571409225464
+        },
+        {
+          "word": " over",
+          "start": 54.16,
+          "end": 54.74,
+          "probability": 0.9186428189277649
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "seek": 5474,
+      "start": 54.74,
+      "end": 57.54,
+      "text": " Little line across, down to the bottom",
+      "tokens": [
+        50364,
+        8022,
+        1622,
+        2108,
+        11,
+        760,
+        281,
+        264,
+        2767,
+        50514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1309716847478127,
+      "compression_ratio": 1.5185185185185186,
+      "no_speech_prob": 0.031018873676657677,
+      "words": [
+        {
+          "word": " Little",
+          "start": 54.74,
+          "end": 55.06,
+          "probability": 0.12984277307987213
+        },
+        {
+          "word": " line",
+          "start": 55.06,
+          "end": 55.56,
+          "probability": 0.4920763075351715
+        },
+        {
+          "word": " across,",
+          "start": 55.56,
+          "end": 55.96,
+          "probability": 0.7682347297668457
+        },
+        {
+          "word": " down",
+          "start": 56.24,
+          "end": 56.4,
+          "probability": 0.9731359481811523
+        },
+        {
+          "word": " to",
+          "start": 56.4,
+          "end": 56.64,
+          "probability": 0.9924511313438416
+        },
+        {
+          "word": " the",
+          "start": 56.64,
+          "end": 56.84,
+          "probability": 0.9966356158256531
+        },
+        {
+          "word": " bottom",
+          "start": 56.84,
+          "end": 57.54,
+          "probability": 0.9920439720153809
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "seek": 5474,
+      "start": 57.54,
+      "end": 62.04,
+      "text": " Little line across, that's the letter I",
+      "tokens": [
+        50514,
+        8022,
+        1622,
+        2108,
+        11,
+        300,
+        311,
+        264,
+        5063,
+        286,
+        50714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1309716847478127,
+      "compression_ratio": 1.5185185185185186,
+      "no_speech_prob": 0.031018873676657677,
+      "words": [
+        {
+          "word": " Little",
+          "start": 57.54,
+          "end": 58.46,
+          "probability": 0.8489274382591248
+        },
+        {
+          "word": " line",
+          "start": 58.46,
+          "end": 59.52,
+          "probability": 0.9885969758033752
+        },
+        {
+          "word": " across,",
+          "start": 59.52,
+          "end": 60.02,
+          "probability": 0.9954131245613098
+        },
+        {
+          "word": " that's",
+          "start": 60.26,
+          "end": 61.22,
+          "probability": 0.7333713918924332
+        },
+        {
+          "word": " the",
+          "start": 61.22,
+          "end": 61.3,
+          "probability": 0.7070556282997131
+        },
+        {
+          "word": " letter",
+          "start": 61.3,
+          "end": 61.58,
+          "probability": 0.974821150302887
+        },
+        {
+          "word": " I",
+          "start": 61.58,
+          "end": 62.04,
+          "probability": 0.4470123052597046
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "seek": 5474,
+      "start": 64.08,
+      "end": 65.74000000000001,
+      "text": " That's the letter I",
+      "tokens": [
+        50714,
+        663,
+        311,
+        264,
+        5063,
+        286,
+        50914
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1309716847478127,
+      "compression_ratio": 1.5185185185185186,
+      "no_speech_prob": 0.031018873676657677,
+      "words": [
+        {
+          "word": " That's",
+          "start": 64.08,
+          "end": 64.96,
+          "probability": 0.4989056629128754
+        },
+        {
+          "word": " the",
+          "start": 64.96,
+          "end": 65.08,
+          "probability": 0.9019864201545715
+        },
+        {
+          "word": " letter",
+          "start": 65.08,
+          "end": 65.32,
+          "probability": 0.9974059462547302
+        },
+        {
+          "word": " I",
+          "start": 65.32,
+          "end": 65.75999999999999,
+          "probability": 0.9492915868759155
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "seek": 5474,
+      "start": 76.4,
+      "end": 80.08,
+      "text": " I is for ice cream cold and sweet",
+      "tokens": [
+        51464,
+        286,
+        307,
+        337,
+        4435,
+        4689,
+        3554,
+        293,
+        3844,
+        51664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1309716847478127,
+      "compression_ratio": 1.5185185185185186,
+      "no_speech_prob": 0.031018873676657677,
+      "words": [
+        {
+          "word": " I",
+          "start": 76.4,
+          "end": 77.28,
+          "probability": 0.3071480691432953
+        },
+        {
+          "word": " is",
+          "start": 77.28,
+          "end": 77.52,
+          "probability": 0.27151814103126526
+        },
+        {
+          "word": " for",
+          "start": 77.52,
+          "end": 77.7,
+          "probability": 0.9857122302055359
+        },
+        {
+          "word": " ice",
+          "start": 77.7,
+          "end": 78.08,
+          "probability": 0.9301352500915527
+        },
+        {
+          "word": " cream",
+          "start": 78.08,
+          "end": 78.52,
+          "probability": 0.8870826363563538
+        },
+        {
+          "word": " cold",
+          "start": 78.52,
+          "end": 79.04,
+          "probability": 0.8065675497055054
+        },
+        {
+          "word": " and",
+          "start": 79.04,
+          "end": 79.48,
+          "probability": 0.9778538346290588
+        },
+        {
+          "word": " sweet",
+          "start": 79.48,
+          "end": 80.08,
+          "probability": 0.9963142275810242
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "seek": 5474,
+      "start": 80.74000000000001,
+      "end": 83.74,
+      "text": " Melting fast in the summer heat",
+      "tokens": [
+        51664,
+        7375,
+        783,
+        2370,
+        294,
+        264,
+        4266,
+        3738,
+        51814
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1309716847478127,
+      "compression_ratio": 1.5185185185185186,
+      "no_speech_prob": 0.031018873676657677,
+      "words": [
+        {
+          "word": " Melting",
+          "start": 80.74000000000001,
+          "end": 81.4,
+          "probability": 0.7851210534572601
+        },
+        {
+          "word": " fast",
+          "start": 81.4,
+          "end": 81.78,
+          "probability": 0.9884738326072693
+        },
+        {
+          "word": " in",
+          "start": 81.78,
+          "end": 82.24,
+          "probability": 0.9945303797721863
+        },
+        {
+          "word": " the",
+          "start": 82.24,
+          "end": 82.36,
+          "probability": 0.9876832365989685
+        },
+        {
+          "word": " summer",
+          "start": 82.36,
+          "end": 82.88,
+          "probability": 0.9918096661567688
+        },
+        {
+          "word": " heat",
+          "start": 82.88,
+          "end": 83.74,
+          "probability": 0.9916855096817017
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "seek": 8374,
+      "start": 84.74,
+      "end": 87.64,
+      "text": " I is for iguana climbing high",
+      "tokens": [
+        50414,
+        286,
+        307,
+        337,
+        8508,
+        20070,
+        14780,
+        1090,
+        50564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1661592423915863,
+      "compression_ratio": 1.536231884057971,
+      "no_speech_prob": 0.07725244015455246,
+      "words": [
+        {
+          "word": " I",
+          "start": 84.46,
+          "end": 84.82,
+          "probability": 0.6043362617492676
+        },
+        {
+          "word": " is",
+          "start": 84.82,
+          "end": 85.04,
+          "probability": 0.0006714159972034395
+        },
+        {
+          "word": " for",
+          "start": 85.04,
+          "end": 85.24,
+          "probability": 0.78270024061203
+        },
+        {
+          "word": " iguana",
+          "start": 85.24,
+          "end": 85.86,
+          "probability": 0.43640697933733463
+        },
+        {
+          "word": " climbing",
+          "start": 85.86,
+          "end": 86.78,
+          "probability": 0.9178288578987122
+        },
+        {
+          "word": " high",
+          "start": 86.78,
+          "end": 87.64,
+          "probability": 0.7758812308311462
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "seek": 8374,
+      "start": 87.64,
+      "end": 91.48,
+      "text": " Look at that lizard go walking by",
+      "tokens": [
+        50564,
+        2053,
+        412,
+        300,
+        39215,
+        352,
+        4494,
+        538,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1661592423915863,
+      "compression_ratio": 1.536231884057971,
+      "no_speech_prob": 0.07725244015455246,
+      "words": [
+        {
+          "word": " Look",
+          "start": 87.64,
+          "end": 88.24,
+          "probability": 0.8669883012771606
+        },
+        {
+          "word": " at",
+          "start": 88.24,
+          "end": 88.46,
+          "probability": 0.9397092461585999
+        },
+        {
+          "word": " that",
+          "start": 88.46,
+          "end": 88.86,
+          "probability": 0.9875904321670532
+        },
+        {
+          "word": " lizard",
+          "start": 88.86,
+          "end": 89.32,
+          "probability": 0.8004809617996216
+        },
+        {
+          "word": " go",
+          "start": 89.32,
+          "end": 89.78,
+          "probability": 0.4808690547943115
+        },
+        {
+          "word": " walking",
+          "start": 89.78,
+          "end": 90.62,
+          "probability": 0.9623464941978455
+        },
+        {
+          "word": " by",
+          "start": 90.62,
+          "end": 91.48,
+          "probability": 0.3861621916294098
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "seek": 8374,
+      "start": 96.74,
+      "end": 99.24,
+      "text": " Start at the top, pick, line down",
+      "tokens": [
+        51014,
+        6481,
+        412,
+        264,
+        1192,
+        11,
+        1888,
+        11,
+        1622,
+        760,
+        51164
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1661592423915863,
+      "compression_ratio": 1.536231884057971,
+      "no_speech_prob": 0.07725244015455246,
+      "words": [
+        {
+          "word": " Start",
+          "start": 96.44,
+          "end": 96.8,
+          "probability": 0.8436933755874634
+        },
+        {
+          "word": " at",
+          "start": 96.8,
+          "end": 97.24,
+          "probability": 0.986503005027771
+        },
+        {
+          "word": " the",
+          "start": 97.24,
+          "end": 97.38,
+          "probability": 0.9920004606246948
+        },
+        {
+          "word": " top,",
+          "start": 97.38,
+          "end": 97.72,
+          "probability": 0.7502810955047607
+        },
+        {
+          "word": " pick,",
+          "start": 98.02,
+          "end": 98.26,
+          "probability": 0.03449079766869545
+        },
+        {
+          "word": " line",
+          "start": 98.54,
+          "end": 98.62,
+          "probability": 0.9543555974960327
+        },
+        {
+          "word": " down",
+          "start": 98.62,
+          "end": 99.24,
+          "probability": 0.8908806443214417
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "seek": 8374,
+      "start": 99.24,
+      "end": 101.56,
+      "text": " Back to the top, move on over",
+      "tokens": [
+        51164,
+        5833,
+        281,
+        264,
+        1192,
+        11,
+        1286,
+        322,
+        670,
+        51264
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1661592423915863,
+      "compression_ratio": 1.536231884057971,
+      "no_speech_prob": 0.07725244015455246,
+      "words": [
+        {
+          "word": " Back",
+          "start": 99.24,
+          "end": 99.5,
+          "probability": 0.8394918441772461
+        },
+        {
+          "word": " to",
+          "start": 99.5,
+          "end": 99.76,
+          "probability": 0.9976346492767334
+        },
+        {
+          "word": " the",
+          "start": 99.76,
+          "end": 99.96,
+          "probability": 0.9943763017654419
+        },
+        {
+          "word": " top,",
+          "start": 99.96,
+          "end": 100.3,
+          "probability": 0.9976935982704163
+        },
+        {
+          "word": " move",
+          "start": 100.38,
+          "end": 100.76,
+          "probability": 0.9856393337249756
+        },
+        {
+          "word": " on",
+          "start": 100.76,
+          "end": 101.0,
+          "probability": 0.9883877635002136
+        },
+        {
+          "word": " over",
+          "start": 101.0,
+          "end": 101.56,
+          "probability": 0.9041475057601929
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "seek": 8374,
+      "start": 101.56,
+      "end": 104.42,
+      "text": " Little line across, down to the bottom",
+      "tokens": [
+        51264,
+        8022,
+        1622,
+        2108,
+        11,
+        760,
+        281,
+        264,
+        2767,
+        51414
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1661592423915863,
+      "compression_ratio": 1.536231884057971,
+      "no_speech_prob": 0.07725244015455246,
+      "words": [
+        {
+          "word": " Little",
+          "start": 101.56,
+          "end": 101.98,
+          "probability": 0.34646502137184143
+        },
+        {
+          "word": " line",
+          "start": 101.98,
+          "end": 102.38,
+          "probability": 0.8980967402458191
+        },
+        {
+          "word": " across,",
+          "start": 102.38,
+          "end": 102.82,
+          "probability": 0.9730623364448547
+        },
+        {
+          "word": " down",
+          "start": 103.12,
+          "end": 103.26,
+          "probability": 0.9925830364227295
+        },
+        {
+          "word": " to",
+          "start": 103.26,
+          "end": 103.52,
+          "probability": 0.9941748976707458
+        },
+        {
+          "word": " the",
+          "start": 103.52,
+          "end": 103.72,
+          "probability": 0.9980412721633911
+        },
+        {
+          "word": " bottom",
+          "start": 103.72,
+          "end": 104.42,
+          "probability": 0.9986483454704285
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "seek": 8374,
+      "start": 104.42,
+      "end": 108.86,
+      "text": " Little line across, down, that's the letter I",
+      "tokens": [
+        51414,
+        8022,
+        1622,
+        2108,
+        11,
+        760,
+        11,
+        300,
+        311,
+        264,
+        5063,
+        286,
+        51614
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1661592423915863,
+      "compression_ratio": 1.536231884057971,
+      "no_speech_prob": 0.07725244015455246,
+      "words": [
+        {
+          "word": " Little",
+          "start": 104.42,
+          "end": 105.24,
+          "probability": 0.9446258544921875
+        },
+        {
+          "word": " line",
+          "start": 105.24,
+          "end": 106.36,
+          "probability": 0.9939994812011719
+        },
+        {
+          "word": " across,",
+          "start": 106.36,
+          "end": 106.78,
+          "probability": 0.998336136341095
+        },
+        {
+          "word": " down,",
+          "start": 107.6,
+          "end": 107.7,
+          "probability": 0.5681535601615906
+        },
+        {
+          "word": " that's",
+          "start": 107.9,
+          "end": 108.1,
+          "probability": 0.9431467652320862
+        },
+        {
+          "word": " the",
+          "start": 108.1,
+          "end": 108.2,
+          "probability": 0.11396718770265579
+        },
+        {
+          "word": " letter",
+          "start": 108.2,
+          "end": 108.42,
+          "probability": 0.7129045128822327
+        },
+        {
+          "word": " I",
+          "start": 108.42,
+          "end": 108.86,
+          "probability": 0.5724589228630066
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "seek": 10886,
+      "start": 111.2,
+      "end": 112.64,
+      "text": " That's the letter I",
+      "tokens": [
+        50414,
+        663,
+        311,
+        264,
+        5063,
+        286,
+        50514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3577709496021271,
+      "compression_ratio": 0.7037037037037037,
+      "no_speech_prob": 0.47320568561553955,
+      "words": [
+        {
+          "word": " That's",
+          "start": 111.2,
+          "end": 111.86,
+          "probability": 0.51485082693398
+        },
+        {
+          "word": " the",
+          "start": 111.86,
+          "end": 111.98,
+          "probability": 0.04013148695230484
+        },
+        {
+          "word": " letter",
+          "start": 111.98,
+          "end": 112.24,
+          "probability": 0.6907141208648682
+        },
+        {
+          "word": " I",
+          "start": 112.24,
+          "end": 112.64,
+          "probability": 0.4145563840866089
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}
