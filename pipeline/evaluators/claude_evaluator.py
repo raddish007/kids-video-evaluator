@@ -11,6 +11,7 @@ from datetime import datetime
 from pathlib import Path
 
 from .base import VideoEvaluator
+from ..cost_tracker import calculate_cost, log_evaluation_cost
 
 logger = logging.getLogger(__name__)
 
@@ -36,7 +37,7 @@ class ClaudeEvaluator(VideoEvaluator):
         Initialize Claude evaluator.
 
         Args:
-            rubric_name: Name of rubric (e.g., "content_rating")
+            rubric_name: Name of rubric (e.g., "content_safety", "ai_quality")
             rubric_prompt: Full rubric prompt text
             model_name: Claude model identifier
             sampling_strategy: Frame sampling strategy ("even", "all", "first_n", "last_n")
@@ -52,8 +53,12 @@ class ClaudeEvaluator(VideoEvaluator):
 
         self.rubric_prompt = rubric_prompt
         self.sampling_strategy = sampling_strategy
-        self.max_frames = max_frames
+        # Claude API has a hard limit of 100 images per request
+        self.max_frames = min(max_frames, 100)
         self.timeout = timeout
+
+        if max_frames > 100:
+            logger.warning(f"Requested {max_frames} frames, but Claude API limit is 100. Capping at 100.")
 
         self._verify_claude_cli()
 
@@ -127,6 +132,24 @@ class ClaudeEvaluator(VideoEvaluator):
         except Exception as e:
             logger.error(f"Evaluation failed: {e}")
             raise
+
+        # Estimate token usage (Claude CLI doesn't return exact counts)
+        # Rough approximation: ~4 characters per token
+        input_tokens = len(prompt) // 4
+        output_tokens = len(evaluation_text) // 4
+        cost = calculate_cost(self.model_name, input_tokens, output_tokens)
+
+        logger.info(f"  Tokens (estimated): {input_tokens:,} in / {output_tokens:,} out")
+        logger.info(f"  Cost (estimated): ${cost:.4f}")
+
+        log_evaluation_cost(
+            model=self.model_name,
+            video_id=video_id,
+            rubric=self.rubric_name,
+            input_tokens=input_tokens,
+            output_tokens=output_tokens,
+            cost=cost
+        )
 
         # Calculate performance metrics
         end_time = datetime.now()

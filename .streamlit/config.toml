@@ -1,6 +1,6 @@
 [server]
-# Increase max file upload size to 2GB (in MB)
-maxUploadSize = 2000
+# Increase max file upload size to 10GB (in MB)
+maxUploadSize = 10000
 
 [theme]
 # Optional: Clean theme for personal use

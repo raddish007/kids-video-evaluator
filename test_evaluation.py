@@ -11,7 +11,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 
 from pipeline.evaluators.claude_evaluator import ClaudeEvaluator
-from src.rubric_content_rating import get_content_rating_rubric
+from src.rubric_content_safety import get_content_safety_rubric
 
 def test_evaluation():
     print("="*80)
@@ -22,18 +22,18 @@ def test_evaluation():
     video_id = "wQ2cIAbpRhs"  # YouTube video
 
     print(f"\nVideo ID: {video_id}")
-    print(f"Rubric: content_rating")
+    print(f"Rubric: content_safety")
     print(f"Model: claude-sonnet-4-20250514")
 
     # Load rubric
     print("\n1. Loading rubric...")
-    rubric_prompt = get_content_rating_rubric()
+    rubric_prompt = get_content_safety_rubric()
     print(f"   ✓ Rubric loaded ({len(rubric_prompt)} characters)")
 
     # Initialize evaluator
     print("\n2. Initializing evaluator...")
     evaluator = ClaudeEvaluator(
-        rubric_name="content_rating",
+        rubric_name="content_safety",
         rubric_prompt=rubric_prompt,
         model_name="claude-sonnet-4-20250514",
         sampling_strategy="even",
@@ -108,7 +108,7 @@ def test_evaluation():
     print(f"\nYou can now:")
     print(f"  1. View full evaluation in the saved JSON file")
     print(f"  2. Run the Streamlit UI: python3 -m streamlit run evaluate_ui.py")
-    print(f"  3. Run CLI tool: python3 pipeline/evaluate_video.py --video-id {video_id} --rubric content_rating")
+    print(f"  3. Run CLI tool: python3 pipeline/evaluate_video.py --video-id {video_id} --rubric content_safety")
 
     return True
 

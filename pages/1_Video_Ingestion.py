@@ -16,15 +16,24 @@ from src.youtube_metadata import YouTubeMetadataFetcher
 from src.youtube_captions import YouTubeCaptionDownloader
 from src.frame_extractor import FrameExtractor
 from src.audio_transcriber import AudioTranscriber
+from src.database import VideoEvaluatorDB, Video
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+# Initialize database
+try:
+    db = VideoEvaluatorDB()
+    DB_AVAILABLE = True
+except Exception as e:
+    logger.warning(f"Database not available: {e}")
+    DB_AVAILABLE = False
+
 # Page configuration
 st.set_page_config(
-    page_title="Video Ingestion Pipeline",
-    page_icon="🎬",
+    page_title="Video Ingestion",
+    page_icon="📥",
     layout="wide"
 )
 
@@ -108,6 +117,52 @@ def check_existing_video(video_id: str) -> tuple:
     return exists, base_path, next_iteration
 
 
+def sync_to_database(video_id: str, video_data: dict, display_warning: bool = True):
+    """
+    Sync video data to Supabase database.
+
+    Args:
+        video_id: Video identifier
+        video_data: Dictionary with video information
+        display_warning: Whether to display warning on failure
+    """
+    if not DB_AVAILABLE:
+        if display_warning:
+            st.warning("⚠️ Database not available - data saved locally only")
+        return
+
+    try:
+        # Prepare title (prefer YouTube metadata)
+        title = video_data.get('title', 'Unknown Video')
+
+        # Create or update video in database
+        video = Video(
+            id=video_id,
+            title=title,
+            filename=f"data/{video_id}/source.mp4",
+            filepath=video_data.get('video_dir', f"data/{video_id}"),
+            duration_seconds=video_data.get('duration_seconds'),
+            frame_count=video_data.get('frame_count'),
+            has_transcript=video_data.get('has_transcript', False),
+            youtube_id=video_data.get('youtube_id'),
+            youtube_url=video_data.get('youtube_url'),
+            ingestion_date=datetime.fromisoformat(video_data['ingestion_timestamp']) if video_data.get('ingestion_timestamp') else datetime.now(),
+            metadata=video_data.get('full_metadata', {})
+        )
+
+        if db.video_exists(video_id):
+            db.update_video(video_id, video.to_dict())
+            logger.info(f"✓ Updated video in database: {video_id}")
+        else:
+            db.create_video(video)
+            logger.info(f"✓ Created video in database: {video_id}")
+
+    except Exception as e:
+        logger.error(f"Database sync failed: {e}")
+        if display_warning:
+            st.warning(f"⚠️ Database sync failed: {e}. Data saved locally.")
+
+
 def save_metadata(video_id: str, metadata: dict, video_path: str,
                   frame_paths: list, transcript: dict,
                   frame_interval: int, whisper_model: str):
@@ -185,6 +240,12 @@ def process_video(video_source, source_type: str, video_id: str,
             "source_type": source_type
         }
 
+        # Track data for progressive database updates
+        db_data = {
+            "video_dir": video_dir,
+            "ingestion_timestamp": datetime.now().isoformat()
+        }
+
         # Check existing files for add_missing mode
         source_path = os.path.join(video_dir, "source.mp4")
         video_exists = os.path.exists(source_path)
@@ -253,6 +314,16 @@ def process_video(video_source, source_type: str, video_id: str,
             results["video_path"] = source_path
             results["youtube_url"] = video_source
 
+            # Update database with video info (prefer YouTube title)
+            db_data.update({
+                "title": youtube_metadata.get("title", f"YouTube Video {video_id}"),
+                "youtube_id": youtube_metadata.get("video_id", video_id),
+                "youtube_url": video_source,
+                "duration_seconds": youtube_metadata.get("duration_seconds"),
+                "full_metadata": youtube_metadata
+            })
+            sync_to_database(video_id, db_data, display_warning=False)
+
         else:  # local file
             if not video_exists or process_mode == "overwrite":
                 st.write("📁 Processing local video...")
@@ -264,6 +335,13 @@ def process_video(video_source, source_type: str, video_id: str,
 
             results["video_path"] = source_path
             results["youtube_metadata"] = None
+
+            # Update database with basic video info
+            db_data.update({
+                "title": video_id.replace("_", " ").title(),
+                "full_metadata": metadata
+            })
+            sync_to_database(video_id, db_data, display_warning=False)
 
         # Step 2: Extract frames
         if not frames_exist or process_mode == "overwrite":
@@ -277,6 +355,10 @@ def process_video(video_source, source_type: str, video_id: str,
 
         results["frame_paths"] = frame_paths
         results["frame_count"] = len(frame_paths)
+
+        # Update database with frame count
+        db_data["frame_count"] = len(frame_paths)
+        sync_to_database(video_id, db_data, display_warning=False)
 
         # Step 3: Transcribe audio
         if not transcript_exists or process_mode == "overwrite":
@@ -303,6 +385,10 @@ def process_video(video_source, source_type: str, video_id: str,
         results["transcript"] = transcript
         results["word_count"] = word_count
 
+        # Update database with transcript status
+        db_data["has_transcript"] = True
+        sync_to_database(video_id, db_data, display_warning=False)
+
         # Step 4: Save metadata
         st.write("💾 Saving metadata...")
 
@@ -324,6 +410,12 @@ def process_video(video_source, source_type: str, video_id: str,
 
         st.success("✓ Metadata saved")
 
+        # Final database sync with complete data
+        if DB_AVAILABLE:
+            st.write("💾 Syncing to database...")
+            sync_to_database(video_id, db_data, display_warning=True)
+            st.success("✓ Database updated")
+
         return results
 
     except Exception as e:
@@ -335,6 +427,12 @@ def process_video(video_source, source_type: str, video_id: str,
 def main():
     st.title("🎬 Video Ingestion Pipeline")
     st.markdown("Phase 1: Upload videos and extract frames + transcripts for evaluation")
+
+    # Database status indicator
+    if DB_AVAILABLE:
+        st.success("✅ Database connected - videos will be synced automatically")
+    else:
+        st.warning("⚠️ Database not available - videos will be saved locally only")
 
     # Sidebar settings
     st.sidebar.header("⚙️ Settings")

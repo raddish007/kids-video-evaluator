@@ -5,7 +5,7 @@ Evaluate Video CLI - Phase 2 Evaluation Pipeline
 Evaluates ingested videos using specified rubric and evaluator.
 
 Usage:
-    python pipeline/evaluate_video.py --video-id VIDEO_ID --rubric content_rating
+    python pipeline/evaluate_video.py --video-id VIDEO_ID --rubric content_safety
 """
 
 import argparse
@@ -17,8 +17,21 @@ import json
 # Add parent directory to path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
+# Load environment variables from .env
+try:
+    from dotenv import load_dotenv
+    load_dotenv(Path(__file__).parent.parent / '.env')
+except ImportError:
+    pass  # dotenv not installed, rely on shell environment
+
 from pipeline.evaluators.claude_evaluator import ClaudeEvaluator
-from src.rubric_content_rating import get_content_rating_rubric
+from pipeline.evaluators.gemini_evaluator import GeminiEvaluator
+from src.rubric_content_safety import get_content_safety_rubric
+from src.rubric_ai_quality import get_ai_quality_rubric
+from src.rubric_production_metrics import get_production_metrics_rubric
+from src.rubric_media_ethics import get_media_ethics_rubric
+from src.rubric_academic import get_academic_rubric
+from src.rubric_fourPillars import get_brainrot_rubric
 
 logging.basicConfig(
     level=logging.INFO,
@@ -33,14 +46,26 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  # Evaluate with content rating rubric
-  python pipeline/evaluate_video.py --video-id MyClip --rubric content_rating
+  # Evaluate with content safety rubric
+  python pipeline/evaluate_video.py --video-id MyClip --rubric content_safety
+
+  # Evaluate with production metrics
+  python pipeline/evaluate_video.py --video-id MyClip --rubric production_metrics
+
+  # Evaluate media ethics
+  python pipeline/evaluate_video.py --video-id MyClip --rubric media_ethics
+
+  # Evaluate with academic rubric (4-pillar pedagogical quality)
+  python pipeline/evaluate_video.py --video-id MyClip --rubric academic
+
+  # Use Gemini instead of Claude
+  python pipeline/evaluate_video.py --video-id MyClip --rubric academic --evaluator gemini
 
   # Use custom frame sampling
-  python pipeline/evaluate_video.py --video-id dQw4w9WgXcQ --rubric content_rating --max-frames 50
+  python pipeline/evaluate_video.py --video-id dQw4w9WgXcQ --rubric ai_quality --max-frames 50
 
   # Use different sampling strategy
-  python pipeline/evaluate_video.py --video-id MyClip --rubric content_rating --sampling all
+  python pipeline/evaluate_video.py --video-id MyClip --rubric production_metrics --sampling all
         """
     )
 
@@ -54,16 +79,24 @@ Examples:
     parser.add_argument(
         '--rubric',
         type=str,
-        choices=['content_rating'],
-        default='content_rating',
-        help='Evaluation rubric to use (default: content_rating)'
+        choices=['content_safety', 'ai_quality', 'production_metrics', 'media_ethics', 'academic', 'four_pillars'],
+        default='four_pillars',
+        help='Evaluation rubric to use (default: four_pillars)'
+    )
+
+    parser.add_argument(
+        '--evaluator',
+        type=str,
+        choices=['claude', 'gemini'],
+        default='claude',
+        help='Evaluator to use: claude or gemini (default: claude)'
     )
 
     parser.add_argument(
         '--model',
         type=str,
-        default='claude-sonnet-4-20250514',
-        help='Claude model to use (default: claude-sonnet-4-20250514)'
+        default=None,
+        help='Model to use. Claude: claude-sonnet-4-20250514 (default), claude-opus-4-5-20251101, claude-3-5-sonnet-20241022, claude-3-haiku-20240307. Gemini: models/gemini-2.5-flash (default), models/gemini-2.5-pro'
     )
 
     parser.add_argument(
@@ -97,11 +130,19 @@ Examples:
 
     args = parser.parse_args()
 
+    # Set default model based on evaluator
+    if args.model is None:
+        if args.evaluator == 'gemini':
+            args.model = 'models/gemini-2.5-flash'
+        else:
+            args.model = 'claude-sonnet-4-20250514'
+
     logger.info(f"{'='*80}")
     logger.info(f"VIDEO EVALUATION")
     logger.info(f"{'='*80}")
     logger.info(f"Video ID: {args.video_id}")
     logger.info(f"Rubric: {args.rubric}")
+    logger.info(f"Evaluator: {args.evaluator}")
     logger.info(f"Model: {args.model}")
     logger.info(f"Sampling: {args.sampling} (max {args.max_frames} frames)")
     logger.info(f"")
@@ -109,22 +150,42 @@ Examples:
     try:
         # Load rubric
         logger.info("Loading rubric...")
-        if args.rubric == 'content_rating':
-            rubric_prompt = get_content_rating_rubric()
+        if args.rubric == 'content_safety':
+            rubric_prompt = get_content_safety_rubric()
+        elif args.rubric == 'ai_quality':
+            rubric_prompt = get_ai_quality_rubric()
+        elif args.rubric == 'production_metrics':
+            rubric_prompt = get_production_metrics_rubric()
+        elif args.rubric == 'media_ethics':
+            rubric_prompt = get_media_ethics_rubric()
+        elif args.rubric == 'academic':
+            rubric_prompt = get_academic_rubric()
+        elif args.rubric == 'four_pillars':
+            rubric_prompt = get_brainrot_rubric()
         else:
             logger.error(f"Unknown rubric: {args.rubric}")
             return 1
 
         # Initialize evaluator
-        logger.info("Initializing evaluator...")
-        evaluator = ClaudeEvaluator(
-            rubric_name=args.rubric,
-            rubric_prompt=rubric_prompt,
-            model_name=args.model,
-            sampling_strategy=args.sampling,
-            max_frames=args.max_frames,
-            timeout=args.timeout
-        )
+        logger.info(f"Initializing {args.evaluator} evaluator...")
+        if args.evaluator == 'gemini':
+            evaluator = GeminiEvaluator(
+                rubric_name=args.rubric,
+                rubric_prompt=rubric_prompt,
+                model_name=args.model,
+                sampling_strategy=args.sampling,
+                max_frames=args.max_frames,
+                timeout=args.timeout
+            )
+        else:
+            evaluator = ClaudeEvaluator(
+                rubric_name=args.rubric,
+                rubric_prompt=rubric_prompt,
+                model_name=args.model,
+                sampling_strategy=args.sampling,
+                max_frames=args.max_frames,
+                timeout=args.timeout
+            )
 
         # Load video data
         logger.info("Loading video data...")

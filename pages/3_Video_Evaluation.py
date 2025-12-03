@@ -11,12 +11,12 @@ from datetime import datetime
 
 # Import evaluators
 import sys
-sys.path.insert(0, str(Path(__file__).parent))
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
 # Load environment variables from .env
 try:
     from dotenv import load_dotenv
-    load_dotenv(Path(__file__).parent / '.env')
+    load_dotenv(Path(__file__).parent.parent / '.env')
 except ImportError:
     pass
 
@@ -29,6 +29,7 @@ from src.rubric_production_metrics import get_production_metrics_rubric
 from src.rubric_media_ethics import get_media_ethics_rubric
 from src.rubric_academic import get_academic_rubric
 from src.rubric_fourPillars import get_brainrot_rubric
+from src.database import VideoEvaluatorDB, Evaluation, EvaluationStatus
 
 logging.basicConfig(
     level=logging.INFO,
@@ -37,16 +38,30 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+# Initialize database
+try:
+    db = VideoEvaluatorDB()
+    DB_AVAILABLE = True
+except Exception as e:
+    logger.warning(f"Database not available: {e}")
+    DB_AVAILABLE = False
+
 
 # Page config
 st.set_page_config(
-    page_title="Video Evaluator",
-    page_icon="🎬",
+    page_title="Video Evaluation",
+    page_icon="🎯",
     layout="wide"
 )
 
 st.title("🎬 Video Evaluation Tool")
 st.markdown("Evaluate ingested videos with different rubrics and models")
+
+# Database status indicator
+if DB_AVAILABLE:
+    st.success("✅ Database connected - evaluations will be synced automatically")
+else:
+    st.warning("⚠️ Database not available - evaluations will be saved locally only")
 
 # Sidebar - Settings
 with st.sidebar:
@@ -194,11 +209,27 @@ with st.sidebar:
 # Step 1: Select video
 st.header("1️⃣ Select Video")
 
-data_dir = Path(__file__).parent / "data"
+# Fix path - go up to video-evaluator directory from pages/
+data_dir = Path(__file__).parent.parent / "data"
 
 if not data_dir.exists():
-    st.error(f"Data directory not found: {data_dir}")
-    st.info("Please run the ingestion step first (app.py)")
+    st.warning("No videos have been ingested yet.")
+    st.info("""
+    **To evaluate a video, you need to ingest it first:**
+
+    **Option 1: Use the Video Ingestion Page**
+    - Go to "Video Ingestion" in the sidebar
+    - Upload a video or paste a YouTube URL
+    - The video will be processed and saved to the data directory
+
+    **Option 2: Use the CLI**
+    ```bash
+    # From the video-evaluator directory:
+    python3 evaluate.py path/to/video.mp4
+    ```
+
+    Once a video is ingested, it will appear here for evaluation.
+    """)
     st.stop()
 
 # Get all video directories
@@ -206,7 +237,22 @@ video_dirs = [d for d in data_dir.iterdir() if d.is_dir()]
 
 if not video_dirs:
     st.warning("No ingested videos found!")
-    st.info("Please run the ingestion step first (app.py) to process videos.")
+    st.info("""
+    **To evaluate a video, you need to ingest it first:**
+
+    **Option 1: Use the Video Ingestion Page**
+    - Go to "Video Ingestion" in the sidebar
+    - Upload a video or paste a YouTube URL
+    - The video will be processed and saved to the data directory
+
+    **Option 2: Use the CLI**
+    ```bash
+    # From the video-evaluator directory:
+    python3 evaluate.py path/to/video.mp4
+    ```
+
+    Once a video is ingested, it will appear here for evaluation.
+    """)
     st.stop()
 
 # Load video metadata for display
@@ -432,10 +478,45 @@ if selected_video_display:
                     output_dir=output_dir
                 )
 
+                # Sync to database
+                if DB_AVAILABLE:
+                    status.text("Syncing to database...")
+                    progress_bar.progress(90)
+
+                    try:
+                        # Extract summary from evaluation result
+                        eval_markdown = result.get('evaluation_markdown', '')
+                        summary = ' '.join(eval_markdown.split('\n')[:3])[:200] if eval_markdown else None
+
+                        # Create Evaluation object
+                        evaluation = Evaluation(
+                            video_id=video_id,
+                            rubric_name=rubric_choice,
+                            status=EvaluationStatus.COMPLETED,
+                            evaluator=evaluator_type,
+                            model_name=result.get('model', model_choice if evaluator_type != "ollama" else vision_model),
+                            cost=result.get('cost_info', {}).get('total_cost'),
+                            started_at=datetime.now(),
+                            completed_at=datetime.now(),
+                            duration_seconds=result.get('performance_metrics', {}).get('processing_time_seconds'),
+                            result=result,
+                            summary=summary
+                        )
+
+                        # Upsert to database
+                        db.upsert_evaluation(evaluation)
+                        logger.info(f"✓ Synced evaluation to database: {video_id}/{rubric_choice}")
+
+                    except Exception as e:
+                        logger.error(f"Database sync failed: {e}")
+                        st.warning(f"⚠️ Database sync failed: {e}. Evaluation saved locally.")
+
                 progress_bar.progress(100)
                 status.text("✓ Complete!")
 
                 st.success(f"✓ Evaluation saved to: `{saved_path}`")
+                if DB_AVAILABLE:
+                    st.success("✓ Synced to database")
 
                 # Display results
                 st.markdown("---")

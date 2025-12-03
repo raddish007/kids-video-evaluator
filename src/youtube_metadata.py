@@ -181,17 +181,45 @@ class YouTubeMetadataFetcher:
         return None
 
     def _download_thumbnail(self, url: str, save_path: str):
-        """Download thumbnail image from URL"""
-        try:
-            response = requests.get(url, timeout=30)
-            response.raise_for_status()
+        """Download thumbnail image from URL with fallback to alternative sizes"""
+        # List of YouTube thumbnail sizes to try (in order of quality)
+        # Extract video ID from the URL to generate fallback URLs
+        video_id = None
+        if 'ytimg.com/vi/' in url:
+            video_id = url.split('/vi/')[1].split('/')[0]
 
-            with open(save_path, 'wb') as f:
-                f.write(response.content)
+        thumbnail_urls = [url]  # Start with the provided URL
 
-        except requests.RequestException as e:
-            logger.warning(f"Failed to download thumbnail: {e}")
-            raise
+        # Add fallback URLs if we have a video ID
+        if video_id:
+            fallback_sizes = ['maxresdefault.jpg', 'sddefault.jpg', 'hqdefault.jpg', 'mqdefault.jpg', 'default.jpg']
+            for size in fallback_sizes:
+                fallback_url = f'https://i.ytimg.com/vi/{video_id}/{size}'
+                if fallback_url not in thumbnail_urls:
+                    thumbnail_urls.append(fallback_url)
+
+        last_error = None
+        for attempt_url in thumbnail_urls:
+            try:
+                logger.debug(f"Trying thumbnail URL: {attempt_url}")
+                response = requests.get(attempt_url, timeout=30)
+                response.raise_for_status()
+
+                with open(save_path, 'wb') as f:
+                    f.write(response.content)
+
+                logger.info(f"✓ Successfully downloaded thumbnail from: {attempt_url}")
+                return  # Success!
+
+            except requests.RequestException as e:
+                last_error = e
+                logger.debug(f"Failed to download from {attempt_url}: {e}")
+                continue  # Try next URL
+
+        # All attempts failed
+        logger.warning(f"Failed to download thumbnail from all sources. Last error: {last_error}")
+        # Don't raise - allow processing to continue without thumbnail
+        # raise
 
     def _parse_upload_date(self, upload_date: Optional[str]) -> Optional[str]:
         """Parse upload date from yt-dlp format (YYYYMMDD) to ISO format"""

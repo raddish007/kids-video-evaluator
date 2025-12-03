@@ -6,7 +6,7 @@ This guide covers the evaluation pipeline for analyzing ingested videos.
 
 The evaluation pipeline is separate from ingestion. Videos must first be ingested (Phase 1) before they can be evaluated.
 
-**Current Status**: Content Rating rubric is fully implemented as a vertical slice. Other rubrics coming soon.
+**Current Status**: Content Safety rubric is fully implemented as a vertical slice. Other rubrics coming soon.
 
 ## Quick Start
 
@@ -27,35 +27,74 @@ Then:
 
 ```bash
 # Evaluate a video
-python3 pipeline/evaluate_video.py --video-id VIDEO_ID --rubric content_rating
+python3 pipeline/evaluate_video.py --video-id VIDEO_ID --rubric content_safety
 
 # With custom settings
 python3 pipeline/evaluate_video.py \
   --video-id MyClip \
-  --rubric content_rating \
+  --rubric content_safety \
   --sampling even \
   --max-frames 50
 ```
 
 ## Available Rubrics
 
-### Content Rating (Kijkwijzer-based)
+### Content Safety (Kijkwijzer-based)
 **Status**: ✅ Implemented
 
-Evaluates age-appropriateness and content safety:
+Evaluates age-appropriateness and universal safety concerns:
 - Age classification (All Ages, 2+, 5+, 7+, 9+)
 - Content descriptors (Violence, Fear, Sexual Content, Discrimination, Drugs, Language)
 - Safety warnings and parental guidance
-- Traffic-light rating (Green/Yellow/Red)
+- Detailed safety analysis with timestamps
+- Focuses on universal safety concerns only
 
 **Use Case**: Determine if video is safe and appropriate for target age group
 
+### AI Quality & Fidelity
+**Status**: ✅ Implemented
+
+Evaluates AI-generated content quality:
+- AI artifact severity rating (0-3: None, Minor, Noticeable, Extreme)
+- Artifact domains (Anatomy, Physics, Visual, Narrative, Audio, Instructional)
+- Cognitive impact assessment (Confusion, Uncanny/Disturbing, Misinformation risks)
+- Authenticity signals detection
+- Factual analysis only (no recommendations)
+
+**Use Case**: Assess quality of AI-generated videos and identify potential issues
+
+### Values & Hot Button Topics
+**Status**: 🚧 Placeholder Created
+
+Documents values-based content for family decision-making:
+- Religious/spiritual content
+- Political content
+- LGBTQ+ themes
+- Other values-based topics (gender roles, authority, etc.)
+- Non-judgmental, informational disclosure
+
+**Use Case**: Help families make informed, values-aligned viewing decisions
+
+### Media Ethics
+**Status**: ✅ Implemented
+
+Detects manipulative tactics and commercial pressure:
+- Marketing pressure ("like and subscribe" demands)
+- Attention hijacking (loud sounds, retention hooks)
+- Artificial urgency (FOMO creation, cliffhangers)
+- Parasocial manipulation (inappropriate intimacy)
+- Commercial intent (product placement, purchase encouragement)
+- Platform gaming (clickbait, algorithm optimization)
+- Reward loops and emotional manipulation
+- Factual documentation only (no recommendations)
+
+**Use Case**: Identify ethical concerns regarding manipulation and commercial exploitation
+
 ### Coming Soon
 
-- **Educational** - Pedagogical effectiveness
-- **Production** - Technical quality
-- **Creative** - Script and engagement
-- **Creative Production** - Measurable metrics (WPM, cuts/min, color analysis)
+- **Educational Objectives** - Learning objectives present and opportunities missed
+- **Production Quality** - Technical quality assessment
+- **Engagement** - Script and engagement analysis
 
 ## Evaluator Configuration
 
@@ -89,7 +128,7 @@ data/<video_id>/evaluations/<evaluator>_<rubric>_<timestamp>.json
 {
   "video_id": "MyClip",
   "evaluator": "claude-cli",
-  "rubric": "content_rating",
+  "rubric": "content_safety",
   "model": "claude-sonnet-4-20250514",
   "timestamp": "2025-01-10T14:30:00",
   "evaluation_markdown": "... full evaluation text ...",
@@ -155,11 +194,15 @@ video-evaluator/
 │       ├── base.py                 # Abstract evaluator class
 │       └── claude_evaluator.py     # Claude implementation
 ├── src/
-│   ├── rubric_content_rating.py    # Content rating rubric
+│   ├── rubric_content_safety.py    # Content safety rubric (universal safety concerns)
+│   ├── rubric_ai_quality.py        # AI quality & fidelity rubric
+│   ├── rubric_values_topics.py     # Values & hot button topics (religion, politics, LGBTQ+)
+│   ├── rubric_media_ethics.py      # Media ethics rubric (manipulation, commercial pressure)
+│   ├── rubric_production_metrics.py  # Production metrics rubric (measurements only)
 │   ├── rubric_educational.py       # Educational rubric (coming soon)
 │   ├── rubric_production.py        # Production rubric (coming soon)
 │   ├── rubric_creative.py          # Creative rubric (coming soon)
-│   └── rubric_creative_production.py  # Metrics rubric (coming soon)
+│   └── archive/                    # Deprecated rubric versions
 └── data/
     └── <video_id>/
         ├── source.mp4
@@ -167,31 +210,41 @@ video-evaluator/
         ├── transcript.txt
         ├── frames/
         └── evaluations/            # Evaluation results saved here
-            └── claude-cli_content_rating_20250110_143000.json
+            └── claude-cli_content_safety_20250110_143000.json
 ```
 
 ## CLI Examples
 
 ### Basic Evaluation
 ```bash
-python3 pipeline/evaluate_video.py --video-id MyClip --rubric content_rating
+python3 pipeline/evaluate_video.py --video-id MyClip --rubric content_safety
 ```
 
 ### With Custom Settings
 ```bash
 python3 pipeline/evaluate_video.py \
   --video-id dQw4w9WgXcQ \
-  --rubric content_rating \
+  --rubric content_safety \
   --sampling even \
   --max-frames 50 \
   --timeout 900
+```
+
+### Evaluate AI Quality
+```bash
+python3 pipeline/evaluate_video.py --video-id MyClip --rubric ai_quality
+```
+
+### Evaluate Media Ethics
+```bash
+python3 pipeline/evaluate_video.py --video-id MyClip --rubric media_ethics
 ```
 
 ### Batch Processing (future)
 ```bash
 # Evaluate all ingested videos
 for video_id in data/*/; do
-  python3 pipeline/evaluate_video.py --video-id $(basename $video_id) --rubric content_rating
+  python3 pipeline/evaluate_video.py --video-id $(basename $video_id) --rubric content_safety
 done
 ```
 
@@ -238,10 +291,10 @@ Times vary based on:
 ## Next Steps
 
 After vertical slice is validated:
-1. Add remaining rubrics (Educational, Production, Creative, Creative Production)
-2. Add Ollama evaluators for local comparison
-3. Add comparison tools to analyze multiple evaluations
-4. Add report generation with templates
+1. Add remaining rubrics (Educational, Production Quality, Creative Analysis)
+2. Implement Tier 2 synthesis reports (Parent Report, Creator Report, Educator Report)
+3. Add Ollama evaluators for local comparison
+4. Add comparison tools to analyze multiple evaluations
 
 ## Support
 

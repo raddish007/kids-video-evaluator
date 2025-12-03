@@ -35,7 +35,7 @@ class VideoEvaluator(ABC):
 
         Args:
             evaluator_name: Name of the evaluator (e.g., "claude-api", "ollama-llava")
-            rubric_name: Name of the rubric (e.g., "content_rating", "educational")
+            rubric_name: Name of the rubric (e.g., "content_safety", "ai_quality")
             model_name: Specific model identifier (e.g., "claude-sonnet-4-20250514")
             version: Evaluator version for tracking
         """
